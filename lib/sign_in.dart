@@ -67,31 +67,41 @@ class loginState extends State<login> {
                     ),
                   ),
                 ),
-                TextFormField(
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please Enter Email';
-                    }
-                    return null;
-                  },
-                  keyboardType: TextInputType.emailAddress,
-                  decoration: const InputDecoration(
-                      icon: Icon(Icons.email),
-                      hintText: 'Enter Email or Phone',
-                      labelText: 'Email or Phone'),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: TextFormField(
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please Enter Email';
+                      }
+                      return null;
+                    },
+                    keyboardType: TextInputType.emailAddress,
+                    decoration: const InputDecoration(
+                        border: OutlineInputBorder(
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(10))),
+                        hintText: 'Enter Email or Phone',
+                        labelText: 'Email or Phone'),
+                  ),
                 ),
-                TextFormField(
-                  validator: (value) {
-                    if (value == null || value.isEmpty) {
-                      return 'Please Enter Email';
-                    }
-                    return null;
-                  },
-                  keyboardType: TextInputType.visiblePassword,
-                  decoration: const InputDecoration(
-                      icon: Icon(Icons.password),
-                      hintText: 'Enter your Password',
-                      labelText: 'Password'),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: TextFormField(
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return 'Please Enter Email';
+                      }
+                      return null;
+                    },
+                    keyboardType: TextInputType.visiblePassword,
+                    decoration: const InputDecoration(
+                        border: OutlineInputBorder(
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(10))),
+                        hintText: 'Enter your Password',
+                        labelText: 'Password'),
+                  ),
                 ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
