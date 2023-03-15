@@ -18,46 +18,47 @@ class loginState extends State<login> {
   Widget build(BuildContext context) {
     return Material(
       child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.red,
-          leading: const Icon(Icons.menu),
-          title: const Text('Sign in'),
-          actions: [
-            Column(
-              children: [
-                GestureDetector(
-                  onTap: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const MyHomePage()),
-                    );
-                  },
-                  child: const Padding(
-                    padding: EdgeInsets.only(right: 10.0, top: 20),
-                    child: SizedBox(
-                      height: 20,
-                      width: 40,
-                      child: Text(
-                        'Skip',
-                        style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 15,
-                            fontWeight: FontWeight.bold),
-                      ),
-                    ),
-                  ),
-                )
-              ],
-            )
-          ],
-        ),
         body: SingleChildScrollView(
           child: Form(
             child: Column(
               children: [
-                
-                Image.asset('assets/images/homefood.jpeg'),
+                Container(
+                  height: 400,
+                  width: double.infinity,
+                  decoration: const BoxDecoration(
+                    image: DecorationImage(
+                      image: AssetImage('assets/images/homefood4.jpeg'),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                  child: GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => MyHomePage()));
+                    },
+                    child: const Padding(
+                      padding: EdgeInsets.only(right: 10.0, top: 20),
+                      child: SizedBox(
+                        height: 20,
+                        width: 40,
+                        child: Padding(
+                          padding: EdgeInsets.all(50.0),
+                          child: Text(
+                            'Skip',
+                            textAlign: TextAlign.right,
+                            style: TextStyle(
+                                color: Colors.white,
+                                backgroundColor: Colors.black26,
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
                 const Padding(
                   padding: EdgeInsets.all(8.0),
                 ),
@@ -67,8 +68,9 @@ class loginState extends State<login> {
                   children: const [
                     Text(
                       'India #1 Food Delivery and Dining App',
+                      textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontSize: 30,
+                        fontSize: 25,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -135,20 +137,6 @@ class loginState extends State<login> {
                         ),
                       ),
                     ),
-                    Container(
-                      decoration: BoxDecoration(
-                          color: Colors.red,
-                          border: Border.all(color: Colors.red),
-                          borderRadius:
-                              const BorderRadius.all(Radius.circular(5))),
-                      child: const Padding(
-                        padding: EdgeInsets.all(10),
-                        child: Text(
-                          'Continue',
-                          style: TextStyle(color: Colors.white),
-                        ),
-                      ),
-                    )
                   ],
                 ),
               ],
