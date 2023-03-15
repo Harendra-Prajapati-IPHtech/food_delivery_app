@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/MyHomePage.dart';
-import 'package:food_delivery_app/sign_in.dart';
 
 class LoginOtp extends StatefulWidget {
   const LoginOtp({super.key});
@@ -24,8 +23,7 @@ class _LoginOtpState extends State<LoginOtp> {
               icon: IconButton(
                   color: Colors.white,
                   onPressed: () {
-                    Navigator.pop(context,
-                        MaterialPageRoute(builder: (context) => const login()));
+                    Navigator.pop(context);
                   },
                   icon: const Icon(Icons.arrow_back_ios_new_outlined)),
             ),

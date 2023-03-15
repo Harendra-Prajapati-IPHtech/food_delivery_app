@@ -1,277 +1,60 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/sign_in.dart';
 
-import 'MyHomePage.dart';
-import 'delivery.dart';
-import 'dining.dart';
-import 'sign_in.dart';
-import 'sign_up.dart';
-
-class Discount extends StatefulWidget {
-  const Discount({super.key});
+class Discounts extends StatefulWidget {
+  const Discounts({super.key});
 
   @override
-  State<Discount> createState() => _DiscountState();
+  State<Discounts> createState() => _DiscountsState();
 }
 
-class _DiscountState extends State<Discount> {
-  final borderRadius = BorderRadius.circular(20);
-
+class _DiscountsState extends State<Discounts> {
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.red,
-          leading: const Icon(Icons.menu),
-          title: const Text('Discount'),
-          actions: [
-            IconButton(
-              onPressed: null,
-              icon: IconButton(
-                  color: Colors.white,
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => const login()));
-                  },
-                  icon: const Icon(Icons.face)),
-            ),
-          ],
-        ),
-        body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Form(
-                child: TextFormField(
-                  decoration: const InputDecoration(
-                      icon: Icon(
-                        Icons.search,
-                        color: Colors.grey,
-                      ),
-                      hintText: 'Search Item',
-                      labelText: 'Search'),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(top: 30.0),
-                child: Expanded(
-                  child: Column(
-                    children: [
-                      Image.asset(
-                        '/Users/iphtech30/Desktop/Harendra_Flutter_Practice/MY_Practice/images/discountfood.jpeg',
-                      ),
-                      InkWell(
-                        onTap: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => const signUp()));
-                        },
-                        child: Container(
-                          height: 50,
-                          width: double.infinity,
-                          color: Colors.red,
-                          child: const Center(
-                            child: Text(
-                              'Get Discounts Here',
-                              style:
-                                  TextStyle(color: Colors.white, fontSize: 15),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(4.0),
-                        child: Container(
-                          padding: const EdgeInsets.all(4), // Border width
-                          decoration: BoxDecoration(
-                              color: Colors.red, borderRadius: borderRadius),
-                          child: ClipRRect(
-                            borderRadius: borderRadius,
-                            child: SizedBox.fromSize(
-                              size: const Size.fromRadius(48), // Image radius
-                              child: Image.asset(
-                                  '/Users/iphtech30/Desktop/Harendra_Flutter_Practice/MY_Practice/images/discountfood1.jpeg',
-                                  fit: BoxFit.cover),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(4.0),
-                        child: Container(
-                          padding: const EdgeInsets.all(4), // Border width
-                          decoration: BoxDecoration(
-                              color: Colors.red, borderRadius: borderRadius),
-                          child: ClipRRect(
-                            borderRadius: borderRadius,
-                            child: SizedBox.fromSize(
-                              size: const Size.fromRadius(48), // Image radius
-                              child: Image.asset(
-                                  '/Users/iphtech30/Desktop/Harendra_Flutter_Practice/MY_Practice/images/discountfood2.jpeg',
-                                  fit: BoxFit.cover),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(4.0),
-                        child: Container(
-                          padding: const EdgeInsets.all(4), // Border width
-                          decoration: BoxDecoration(
-                              color: Colors.red, borderRadius: borderRadius),
-                          child: ClipRRect(
-                            borderRadius: borderRadius,
-                            child: SizedBox.fromSize(
-                              size: const Size.fromRadius(48), // Image radius
-                              child: Image.asset(
-                                  '/Users/iphtech30/Desktop/Harendra_Flutter_Practice/MY_Practice/images/discountfood1.jpeg',
-                                  fit: BoxFit.cover),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
-              ),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(4.0),
-                        child: Container(
-                          padding: const EdgeInsets.all(4), // Border width
-                          decoration: BoxDecoration(
-                              color: Colors.red, borderRadius: borderRadius),
-                          child: ClipRRect(
-                            borderRadius: borderRadius,
-                            child: SizedBox.fromSize(
-                              size: const Size.fromRadius(48), // Image radius
-                              child: Image.asset(
-                                  '/Users/iphtech30/Desktop/Harendra_Flutter_Practice/MY_Practice/images/discountfood2.jpeg',
-                                  fit: BoxFit.cover),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(4.0),
-                        child: Container(
-                          padding: const EdgeInsets.all(4), // Border width
-                          decoration: BoxDecoration(
-                              color: Colors.red, borderRadius: borderRadius),
-                          child: ClipRRect(
-                            borderRadius: borderRadius,
-                            child: SizedBox.fromSize(
-                              size: const Size.fromRadius(48), // Image radius
-                              child: Image.asset(
-                                  '/Users/iphtech30/Desktop/Harendra_Flutter_Practice/MY_Practice/images/discountfood1.jpeg',
-                                  fit: BoxFit.cover),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.all(4.0),
-                        child: Container(
-                          padding: const EdgeInsets.all(4), // Border width
-                          decoration: BoxDecoration(
-                              color: Colors.red, borderRadius: borderRadius),
-                          child: ClipRRect(
-                            borderRadius: borderRadius,
-                            child: SizedBox.fromSize(
-                              size: const Size.fromRadius(48), // Image radius
-                              child: Image.asset(
-                                  '/Users/iphtech30/Desktop/Harendra_Flutter_Practice/MY_Practice/images/discountfood2.jpeg',
-                                  fit: BoxFit.cover),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ],
+    return MaterialApp(
+      home: Scaffold(
+          appBar: AppBar(
+            backgroundColor: Colors.red,
+            leading: const Icon(Icons.menu),
+            title: const Text('Home Page'),
+            actions: [
+              IconButton(
+                onPressed: null,
+                icon: IconButton(
+                    color: Colors.white,
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const login()));
+                    },
+                    icon: const Icon(Icons.face)),
               ),
             ],
           ),
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-                icon: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const DeliveryPage()));
-                  },
-                  child: const Icon(
-                    Icons.delivery_dining,
-                    color: Colors.red,
-                  ),
-                ),
-                label: 'Delivery'),
-            BottomNavigationBarItem(
-                icon: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const MyHomePage()));
-                  },
-                  child: const Icon(
-                    Icons.home,
-                    color: Colors.red,
-                  ),
-                ),
-                label: 'Home'),
-            BottomNavigationBarItem(
-              icon: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const DiningPage()));
-                },
-                child: const Icon(
-                  Icons.dining,
-                  color: Colors.red,
-                ),
+          body: SingleChildScrollView(
+            child: Container(
+              height: 400,
+              width: double.infinity,
+              decoration: const BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage('assets/images/homefood4.jpeg'),
+                    fit: BoxFit.cover),
               ),
-              label: 'dining',
-            )
-          ],
-        ),
-      ),
+              child: const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Center(
+                    child: Text(
+                  'Up to 80% Discounts',
+                  style: TextStyle(
+                    fontSize: 60,
+                    color: Colors.red,
+                    fontWeight: FontWeight.bold,
+                  ),
+                )),
+              ),
+            ),
+          )),
     );
   }
 }

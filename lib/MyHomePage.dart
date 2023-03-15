@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/delivery.dart';
 import 'package:food_delivery_app/dining.dart';
+import 'package:food_delivery_app/discount.dart';
 import 'package:food_delivery_app/searchableList.dart';
 import 'package:food_delivery_app/sign_in.dart';
 
@@ -69,7 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => const HomePage()));
+                                  builder: (context) => const Discounts()));
                         },
                         child: Container(
                           height: 50,

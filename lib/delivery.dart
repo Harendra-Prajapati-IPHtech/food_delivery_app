@@ -3,7 +3,6 @@ import 'package:food_delivery_app/MyHomePage.dart';
 import 'package:food_delivery_app/dining.dart';
 import 'package:food_delivery_app/searchableList.dart';
 import 'package:food_delivery_app/sign_in.dart';
-import 'package:food_delivery_app/sign_up.dart';
 
 class DeliveryPage extends StatefulWidget {
   const DeliveryPage({super.key});

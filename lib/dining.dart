@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/MyHomePage.dart';
 import 'package:food_delivery_app/sign_in.dart';
-import 'package:food_delivery_app/sign_up.dart';
 import 'delivery.dart';
 
 void main(List<String> args) {
@@ -99,23 +98,6 @@ class _DiningPagePageState extends State<DiningPage> {
         child: Column(
           children: [
             Image.asset('assets/images/diningfood.jpeg'),
-            // InkWell(
-            //   onTap: () {
-            //     Navigator.push(context,
-            //         MaterialPageRoute(builder: (context) => HomePage()));
-            //   },
-            //   child: Container(
-            //     height: 50,
-            //     width: double.infinity,
-            //     color: Colors.red,
-            //     child: const Center(
-            //       child: Text(
-            //         'Dining',
-            //         style: TextStyle(color: Colors.white, fontSize: 15),
-            //       ),
-            //     ),
-            //   ),
-            // ),
             const SizedBox(
               height: 20,
             ),

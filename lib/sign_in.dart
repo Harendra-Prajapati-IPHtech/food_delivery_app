@@ -56,16 +56,23 @@ class loginState extends State<login> {
           child: Form(
             child: Column(
               children: [
+                
                 Image.asset('assets/images/homefood.jpeg'),
                 const Padding(
                   padding: EdgeInsets.all(8.0),
-                  child: Text(
-                    'India #1 Food Delivery and Dining App',
-                    style: TextStyle(
-                      fontSize: 30,
-                      fontWeight: FontWeight.bold,
+                ),
+                Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: const [
+                    Text(
+                      'India #1 Food Delivery and Dining App',
+                      style: TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
+                  ],
                 ),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -128,59 +135,26 @@ class loginState extends State<login> {
                         ),
                       ),
                     ),
+                    Container(
+                      decoration: BoxDecoration(
+                          color: Colors.red,
+                          border: Border.all(color: Colors.red),
+                          borderRadius:
+                              const BorderRadius.all(Radius.circular(5))),
+                      child: const Padding(
+                        padding: EdgeInsets.all(10),
+                        child: Text(
+                          'Continue',
+                          style: TextStyle(color: Colors.white),
+                        ),
+                      ),
+                    )
                   ],
                 ),
               ],
             ),
           ),
         ),
-        // bottomNavigationBar: BottomNavigationBar(
-        //   items: <BottomNavigationBarItem>[
-        //     BottomNavigationBarItem(
-        //         icon: InkWell(
-        //           onTap: () {
-        //             Navigator.push(
-        //                 context,
-        //                 MaterialPageRoute(
-        //                     builder: (context) => const DeliveryPage()));
-        //           },
-        //           child: const Icon(
-        //             Icons.delivery_dining,
-        //             color: Colors.red,
-        //           ),
-        //         ),
-        //         label: 'Delivery'),
-        //     BottomNavigationBarItem(
-        //         icon: InkWell(
-        //           onTap: () {
-        //             Navigator.push(
-        //                 context,
-        //                 MaterialPageRoute(
-        //                     builder: (context) => const MyHomePage()));
-        //           },
-        //           child: const Icon(
-        //             Icons.home,
-        //             color: Colors.red,
-        //           ),
-        //         ),
-        //         label: 'Home'),
-        //     BottomNavigationBarItem(
-        //       icon: InkWell(
-        //         onTap: () {
-        //           Navigator.push(
-        //               context,
-        //               MaterialPageRoute(
-        //                   builder: (context) => const DiningPage()));
-        //         },
-        //         child: const Icon(
-        //           Icons.dining,
-        //           color: Colors.red,
-        //         ),
-        //       ),
-        //       label: 'dining',
-        //     )
-        //   ],
-        // ),
       ),
     );
   }
