@@ -4,6 +4,7 @@ import 'package:food_delivery_app/dining.dart';
 import 'package:food_delivery_app/discount.dart';
 import 'package:food_delivery_app/searchableList.dart';
 import 'package:food_delivery_app/sign_in.dart';
+import 'package:food_delivery_app/sign_up.dart';
 
 void main(List<String> args) {
   runApp(const MyHomePage());
@@ -32,8 +33,10 @@ class _MyHomePageState extends State<MyHomePage> {
               icon: IconButton(
                   color: Colors.white,
                   onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => const login()));
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const signUp()));
                   },
                   icon: const Icon(Icons.face)),
             ),

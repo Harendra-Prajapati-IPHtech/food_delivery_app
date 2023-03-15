@@ -78,18 +78,14 @@ class _DiscountsState extends State<Discounts> {
                         image: AssetImage('assets/images/homefood1.jpeg'),
                         fit: BoxFit.cover),
                   ),
-                  child: Row(
-                    children: const [
-                      Text(
-                        'Up to 50% Discounts',
-                        textAlign: TextAlign.left,
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
+                  child: const Text(
+                    'Up to 50% Discounts',
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),

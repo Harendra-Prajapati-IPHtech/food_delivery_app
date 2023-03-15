@@ -94,24 +94,24 @@ class loginState extends State<login> {
                         labelText: 'Email or Phone'),
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: TextFormField(
-                    validator: (value) {
-                      if (value == null || value.isEmpty) {
-                        return 'Please Enter Email';
-                      }
-                      return null;
-                    },
-                    keyboardType: TextInputType.visiblePassword,
-                    decoration: const InputDecoration(
-                        border: OutlineInputBorder(
-                            borderRadius:
-                                BorderRadius.all(Radius.circular(10))),
-                        hintText: 'Enter your Password',
-                        labelText: 'Password'),
-                  ),
-                ),
+                // Padding(
+                //   padding: const EdgeInsets.all(8.0),
+                //   child: TextFormField(
+                //     validator: (value) {
+                //       if (value == null || value.isEmpty) {
+                //         return 'Please Enter Password';
+                //       }
+                //       return null;
+                //     },
+                //     keyboardType: TextInputType.visiblePassword,
+                //     decoration: const InputDecoration(
+                //         border: OutlineInputBorder(
+                //             borderRadius:
+                //                 BorderRadius.all(Radius.circular(10))),
+                //         hintText: 'Enter your Password',
+                //         labelText: 'Password'),
+                //   ),
+                // ),
                 Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
