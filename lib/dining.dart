@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/MyHomePage.dart';
-import 'package:food_delivery_app/searchableList.dart';
 import 'package:food_delivery_app/sign_in.dart';
 import 'package:food_delivery_app/sign_up.dart';
 import 'delivery.dart';
@@ -95,73 +94,75 @@ class _DiningPagePageState extends State<DiningPage> {
           ),
         ],
       ),
-      body: Padding(
-        padding: const EdgeInsets.all(10),
-        child: Column(
-          children: [
-            Image.asset('assets/images/diningfood.jpeg'),
-            // InkWell(
-            //   onTap: () {
-            //     Navigator.push(context,
-            //         MaterialPageRoute(builder: (context) => HomePage()));
-            //   },
-            //   child: Container(
-            //     height: 50,
-            //     width: double.infinity,
-            //     color: Colors.red,
-            //     child: const Center(
-            //       child: Text(
-            //         'Dining',
-            //         style: TextStyle(color: Colors.white, fontSize: 15),
-            //       ),
-            //     ),
-            //   ),
-            // ),
-            const SizedBox(
-              height: 20,
-            ),
-            TextField(
-              onChanged: (value) => _runFilter(value),
-              decoration: const InputDecoration(
-                labelText: 'Search',
-                suffixIcon: Icon(Icons.search),
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(10),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(10),
+          child: Column(
+            children: [
+              Image.asset('assets/images/diningfood.jpeg'),
+              // InkWell(
+              //   onTap: () {
+              //     Navigator.push(context,
+              //         MaterialPageRoute(builder: (context) => HomePage()));
+              //   },
+              //   child: Container(
+              //     height: 50,
+              //     width: double.infinity,
+              //     color: Colors.red,
+              //     child: const Center(
+              //       child: Text(
+              //         'Dining',
+              //         style: TextStyle(color: Colors.white, fontSize: 15),
+              //       ),
+              //     ),
+              //   ),
+              // ),
+              const SizedBox(
+                height: 20,
+              ),
+              TextField(
+                onChanged: (value) => _runFilter(value),
+                decoration: const InputDecoration(
+                  labelText: 'Search',
+                  suffixIcon: Icon(Icons.search),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.all(
+                      Radius.circular(10),
+                    ),
                   ),
                 ),
               ),
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            Expanded(
-              child: _foundUsers.isNotEmpty
-                  ? ListView.builder(
-                      itemCount: _foundUsers.length,
-                      itemBuilder: (context, index) => Card(
-                        key: ValueKey(_foundUsers[index]),
-                        color: Colors.red,
-                        elevation: 4,
-                        margin: const EdgeInsets.symmetric(vertical: 10),
-                        child: ListTile(
-                          title: Text(
-                            _foundUsers[index]['name'],
-                            style: const TextStyle(color: Colors.white),
-                          ),
-                          subtitle: Text(
-                            '${_foundUsers[index]["price"].toString()} Rs. Only',
-                            style: const TextStyle(color: Colors.yellow),
+              const SizedBox(
+                height: 20,
+              ),
+              Expanded(
+                child: _foundUsers.isNotEmpty
+                    ? ListView.builder(
+                        itemCount: _foundUsers.length,
+                        itemBuilder: (context, index) => Card(
+                          key: ValueKey(_foundUsers[index]),
+                          color: Colors.red,
+                          elevation: 4,
+                          margin: const EdgeInsets.symmetric(vertical: 10),
+                          child: ListTile(
+                            title: Text(
+                              _foundUsers[index]['name'],
+                              style: const TextStyle(color: Colors.white),
+                            ),
+                            subtitle: Text(
+                              '${_foundUsers[index]["price"].toString()} Rs. Only',
+                              style: const TextStyle(color: Colors.yellow),
+                            ),
                           ),
                         ),
+                      )
+                    : const Text(
+                        'No results found',
+                        style: TextStyle(fontSize: 24),
                       ),
-                    )
-                  : const Text(
-                      'No results found',
-                      style: TextStyle(fontSize: 24),
-                    ),
-            ),
-          ],
+              ),
+            ],
+          ),
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(

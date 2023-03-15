@@ -9,4 +9,3 @@
 - Place order.<br>
 - Cancel order.<br>
 - track live location.<br>
-
