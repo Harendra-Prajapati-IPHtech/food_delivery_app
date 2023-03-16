@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/MyHomePage.dart';
-import 'package:food_delivery_app/sign_in.dart';
-import 'delivery.dart';
 
 void main(List<String> args) {
   runApp(const DiningPage());
@@ -75,121 +72,55 @@ class _DiningPagePageState extends State<DiningPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.red,
-        leading: const Icon(Icons.menu),
-        title: const Text('Dining'),
-        actions: [
-          IconButton(
-            onPressed: null,
-            icon: IconButton(
-                color: Colors.white,
-                onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const login()));
-                },
-                icon: const Icon(Icons.face)),
+    return Padding(
+      padding: const EdgeInsets.all(10),
+      child: Column(
+        children: [
+          Image.asset('assets/images/diningfood.jpeg'),
+          const SizedBox(
+            height: 20,
           ),
-        ],
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(10),
-        child: Column(
-          children: [
-            Image.asset('assets/images/diningfood.jpeg'),
-            const SizedBox(
-              height: 20,
-            ),
-            TextField(
-              onChanged: (value) => _runFilter(value),
-              decoration: const InputDecoration(
-                labelText: 'Search',
-                suffixIcon: Icon(Icons.search),
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(10),
-                  ),
+          TextField(
+            onChanged: (value) => _runFilter(value),
+            decoration: const InputDecoration(
+              labelText: 'Search',
+              suffixIcon: Icon(Icons.search),
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.all(
+                  Radius.circular(10),
                 ),
               ),
             ),
-            const SizedBox(
-              height: 20,
-            ),
-            Expanded(
-              child: _foundUsers.isNotEmpty
-                  ? ListView.builder(
-                      itemCount: _foundUsers.length,
-                      itemBuilder: (context, index) => Card(
-                        key: ValueKey(_foundUsers[index]),
-                        color: Colors.red,
-                        elevation: 4,
-                        margin: const EdgeInsets.symmetric(vertical: 10),
-                        child: ListTile(
-                          title: Text(
-                            _foundUsers[index]['name'],
-                            style: const TextStyle(color: Colors.white),
-                          ),
-                          subtitle: Text(
-                            '${_foundUsers[index]["price"].toString()} Rs. Only',
-                            style: const TextStyle(color: Colors.yellow),
-                          ),
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          Expanded(
+            child: _foundUsers.isNotEmpty
+                ? ListView.builder(
+                    itemCount: _foundUsers.length,
+                    itemBuilder: (context, index) => Card(
+                      key: ValueKey(_foundUsers[index]),
+                      color: Colors.red,
+                      elevation: 4,
+                      margin: const EdgeInsets.symmetric(vertical: 10),
+                      child: ListTile(
+                        title: Text(
+                          _foundUsers[index]['name'],
+                          style: const TextStyle(color: Colors.white),
+                        ),
+                        subtitle: Text(
+                          '${_foundUsers[index]["price"].toString()} Rs. Only',
+                          style: const TextStyle(color: Colors.yellow),
                         ),
                       ),
-                    )
-                  : const Text(
-                      'No results found',
-                      style: TextStyle(fontSize: 24),
                     ),
-            ),
-          ],
-        ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(
-              icon: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const DeliveryPage()));
-                },
-                child: const Icon(
-                  Icons.delivery_dining,
-                  color: Colors.red,
-                ),
-              ),
-              label: 'Delivery'),
-          BottomNavigationBarItem(
-              icon: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const MyHomePage()));
-                },
-                child: const Icon(
-                  Icons.home,
-                  color: Colors.red,
-                ),
-              ),
-              label: 'Home'),
-          BottomNavigationBarItem(
-            icon: InkWell(
-              onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const DiningPage()));
-              },
-              child: const Icon(
-                Icons.dining,
-                color: Colors.red,
-              ),
-            ),
-            label: 'dining',
-          )
+                  )
+                : const Text(
+                    'No results found',
+                    style: TextStyle(fontSize: 24),
+                  ),
+          ),
         ],
       ),
     );

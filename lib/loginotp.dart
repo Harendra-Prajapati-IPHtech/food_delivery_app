@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/MyHomePage.dart';
+import 'package:food_delivery_app/pageview.dart';
 
 class LoginOtp extends StatefulWidget {
   const LoginOtp({super.key});
@@ -51,7 +52,7 @@ class _LoginOtpState extends State<LoginOtp> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const MyHomePage()));
+                          builder: (context) => const HomePageView()));
                 },
                 child: Padding(
                   padding: const EdgeInsets.all(50.0),

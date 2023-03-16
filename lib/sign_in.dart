@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/MyHomePage.dart';
 import 'package:food_delivery_app/loginotp.dart';
+import 'package:food_delivery_app/pageview.dart';
 
 void main(List<String> args) {
   runApp(const login());
@@ -36,7 +36,7 @@ class loginState extends State<login> {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => MyHomePage()));
+                              builder: (context) => const HomePageView()));
                     },
                     child: const Padding(
                       padding: EdgeInsets.only(right: 10.0, top: 20),

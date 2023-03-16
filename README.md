@@ -28,3 +28,10 @@ https://user-images.githubusercontent.com/126752734/225207455-28124eb6-d579-484d
 
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-14 at 18 47 31](https://user-images.githubusercontent.com/126752734/225207736-9e802d18-dd24-4ba2-a5dd-9441c6936375.png)
 >>>>>>> b467389735c64e996664246e95383e47618d0947
+
+
+Good evening,
+@Lekha Mishra ma'am
+Please find my today task . 
+1.login GUI
+2.Discount page

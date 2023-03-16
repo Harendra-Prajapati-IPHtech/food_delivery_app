@@ -21,25 +21,6 @@ class _signUpState extends State<signUp> {
   Widget build(BuildContext context) {
     return Material(
       child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.red,
-          leading: const Icon(Icons.menu),
-          title: const Text('Sign up'),
-          actions: [
-            IconButton(
-              onPressed: null,
-              icon: IconButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => login()));
-                  },
-                  icon: const Icon(
-                    Icons.face,
-                    color: Colors.white,
-                  )),
-            ),
-          ],
-        ),
         body: SingleChildScrollView(
           child: Form(
             child: Column(
@@ -167,53 +148,6 @@ class _signUpState extends State<signUp> {
               ],
             ),
           ),
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-                icon: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const DeliveryPage()));
-                  },
-                  child: const Icon(
-                    Icons.delivery_dining,
-                    color: Colors.red,
-                  ),
-                ),
-                label: 'Delivery'),
-            BottomNavigationBarItem(
-                icon: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const MyHomePage()));
-                  },
-                  child: const Icon(
-                    Icons.home,
-                    color: Colors.red,
-                  ),
-                ),
-                label: 'Home'),
-            BottomNavigationBarItem(
-              icon: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const DiningPage()));
-                },
-                child: const Icon(
-                  Icons.dining,
-                  color: Colors.red,
-                ),
-              ),
-              label: 'dining',
-            )
-          ],
         ),
       ),
     );

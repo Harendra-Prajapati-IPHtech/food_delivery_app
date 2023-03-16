@@ -23,25 +23,6 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Material(
       child: Scaffold(
-        appBar: AppBar(
-          backgroundColor: Colors.red,
-          leading: const Icon(Icons.menu),
-          title: const Text('Home Page'),
-          actions: [
-            IconButton(
-              onPressed: null,
-              icon: IconButton(
-                  color: Colors.white,
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const signUp()));
-                  },
-                  icon: const Icon(Icons.face)),
-            ),
-          ],
-        ),
         body: SingleChildScrollView(
           child: Column(
             children: [
@@ -600,53 +581,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ],
           ),
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-                icon: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const DeliveryPage()));
-                  },
-                  child: const Icon(
-                    Icons.delivery_dining,
-                    color: Colors.red,
-                  ),
-                ),
-                label: 'Delivery'),
-            BottomNavigationBarItem(
-                icon: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const MyHomePage()));
-                  },
-                  child: const Icon(
-                    Icons.home,
-                    color: Colors.red,
-                  ),
-                ),
-                label: 'Home'),
-            BottomNavigationBarItem(
-              icon: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const DiningPage()));
-                },
-                child: const Icon(
-                  Icons.dining,
-                  color: Colors.red,
-                ),
-              ),
-              label: 'dining',
-            )
-          ],
         ),
       ),
     );
