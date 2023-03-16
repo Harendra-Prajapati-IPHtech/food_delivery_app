@@ -1,9 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/sign_in.dart';
-
-import 'MyHomePage.dart';
-import 'delivery.dart';
-import 'dining.dart';
 
 class Discounts extends StatefulWidget {
   const Discounts({super.key});
@@ -18,19 +13,17 @@ class _DiscountsState extends State<Discounts> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          toolbarHeight: 30,
           backgroundColor: Colors.red,
-          leading: const Icon(Icons.menu),
-          title: const Text('Home Page'),
           actions: [
-            IconButton(
-              onPressed: null,
-              icon: IconButton(
-                  color: Colors.white,
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => const login()));
-                  },
-                  icon: const Icon(Icons.face)),
+            InkWell(
+              onTap: () {
+                Navigator.pop(context);
+              },
+              child: const Padding(
+                padding: EdgeInsets.only(bottom: 8.0),
+                child: Icon(Icons.arrow_back_ios),
+              ),
             ),
           ],
         ),
@@ -63,7 +56,7 @@ class _DiscountsState extends State<Discounts> {
                 color: Colors.red,
                 child: const Center(
                   child: Text(
-                    'Special Discounts',
+                    'Deal of the Day',
                     style: TextStyle(color: Colors.white, fontSize: 15),
                   ),
                 ),
@@ -235,53 +228,6 @@ class _DiscountsState extends State<Discounts> {
               ),
             ],
           ),
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: <BottomNavigationBarItem>[
-            BottomNavigationBarItem(
-                icon: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const DeliveryPage()));
-                  },
-                  child: const Icon(
-                    Icons.delivery_dining,
-                    color: Colors.red,
-                  ),
-                ),
-                label: 'Delivery'),
-            BottomNavigationBarItem(
-                icon: InkWell(
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const MyHomePage()));
-                  },
-                  child: const Icon(
-                    Icons.home,
-                    color: Colors.red,
-                  ),
-                ),
-                label: 'Home'),
-            BottomNavigationBarItem(
-              icon: InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const DiningPage()));
-                },
-                child: const Icon(
-                  Icons.dining,
-                  color: Colors.red,
-                ),
-              ),
-              label: 'dining',
-            )
-          ],
         ),
       ),
     );

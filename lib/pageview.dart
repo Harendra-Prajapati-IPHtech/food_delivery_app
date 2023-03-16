@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/MyHomePage.dart';
+import 'package:food_delivery_app/codeBackup.dart';
+import 'package:food_delivery_app/dashboard.dart';
 import 'package:food_delivery_app/delivery.dart';
 import 'package:food_delivery_app/dining.dart';
 import 'package:food_delivery_app/sign_up.dart';
@@ -31,14 +33,9 @@ class _HomePageState extends State<HomePageView> {
         },
         controller: _pageController,
         children: const [
-          Center(
-            child: Text(
-              'Wait for it',
-              textAlign: TextAlign.center,
-            ),
-          ),
+          MyDashboard(),
           DeliveryPage(),
-          MyHomePage(),
+          Home(),
           DiningPage(),
           signUp(),
         ],

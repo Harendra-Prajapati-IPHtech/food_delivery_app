@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/pageview.dart';
-import 'package:food_delivery_app/sign_in.dart';
+import 'login.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/searchableList.dart';
-import 'package:food_delivery_app/sign_in.dart';
 
 class DeliveryPage extends StatefulWidget {
   const DeliveryPage({super.key});

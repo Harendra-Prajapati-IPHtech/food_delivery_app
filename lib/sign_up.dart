@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/delivery.dart';
-import 'package:food_delivery_app/dining.dart';
-import 'package:food_delivery_app/sign_in.dart';
-import 'MyHomePage.dart';
+import 'login.dart';
 
 void main(List<String> args) {
   runApp(const signUp());

@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
 
+import 'discount.dart';
+
 void main(List<String> args) {
-  runApp(const DiningPage());
+  runApp(const Home());
 }
 
-class DiningPage extends StatefulWidget {
-  const DiningPage({super.key});
+class Home extends StatefulWidget {
+  const Home({super.key});
 
   @override
-  State<DiningPage> createState() => _DiningPagePageState();
+  State<Home> createState() => _DiningPagePageState();
 }
 
-class _DiningPagePageState extends State<DiningPage> {
+class _DiningPagePageState extends State<Home> {
   final List<Map<String, dynamic>> _allUsers = [
     {"name": "Veg Burger", "price": 70},
     {"name": "Chicken Burger", "price": 70},
@@ -73,7 +75,7 @@ class _DiningPagePageState extends State<DiningPage> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.all(10),
+      padding: const EdgeInsets.all(0),
       child: Column(
         children: [
           Padding(
@@ -91,7 +93,43 @@ class _DiningPagePageState extends State<DiningPage> {
               ),
             ),
           ),
-          Image.asset('assets/images/diningfood.jpeg'),
+          Container(
+            height: 200,
+            width: double.infinity,
+            decoration: const BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage('assets/images/homefood4.jpeg'),
+                    fit: BoxFit.cover)),
+            // child: const Padding(
+            //   padding: EdgeInsets.only(top: 8.0),
+            //   child: Text(
+            //     'Just order and Enjoy your Day',
+            //     textAlign: TextAlign.start,
+            //     style: TextStyle(
+            //       fontSize: 30,
+            //       fontWeight: FontWeight.bold,
+            //       color: Colors.white,
+            //     ),
+            //   ),
+            // ),
+          ),
+          InkWell(
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const Discounts()));
+            },
+            child: Container(
+              height: 50,
+              width: double.infinity,
+              color: const Color.fromARGB(255, 39, 36, 36),
+              child: const Center(
+                child: Text(
+                  'Get Extra Discounts',
+                  style: TextStyle(color: Colors.white, fontSize: 15),
+                ),
+              ),
+            ),
+          ),
           const SizedBox(
             height: 20,
           ),
@@ -104,28 +142,27 @@ class _DiningPagePageState extends State<DiningPage> {
                     itemCount: _foundUsers.length,
                     itemBuilder: (context, index) => Card(
                       key: ValueKey(_foundUsers[index]),
-                      color: Colors.red,
                       elevation: 4,
                       margin: const EdgeInsets.symmetric(vertical: 10),
                       child: ListTile(
                         leading: const CircleAvatar(
                           backgroundImage: AssetImage(
-                            'assets/images/homefood.jpeg',
+                            'assets/images/homefood1.jpeg',
                           ),
                         ),
                         title: Text(
                           _foundUsers[index]['name'],
-                          style: const TextStyle(color: Colors.white),
+                          style: const TextStyle(color: Colors.black),
                         ),
                         subtitle: Text(
                           '${_foundUsers[index]["price"].toString()} Rs. Only',
-                          style: const TextStyle(color: Colors.yellow),
+                          style: const TextStyle(
+                              color: Color.fromARGB(255, 89, 89, 87)),
                         ),
                         trailing: const IconButton(
                           onPressed: null,
                           icon: Icon(
                             Icons.star_border,
-                            color: Colors.white,
                           ),
                         ),
                       ),

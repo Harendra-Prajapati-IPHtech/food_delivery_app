@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/delivery.dart';
-import 'package:food_delivery_app/dining.dart';
+import 'package:food_delivery_app/codeBackup.dart';
 import 'package:food_delivery_app/discount.dart';
-import 'package:food_delivery_app/searchableList.dart';
-import 'package:food_delivery_app/sign_in.dart';
-import 'package:food_delivery_app/sign_up.dart';
 
 void main(List<String> args) {
   runApp(const MyHomePage());
