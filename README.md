@@ -30,8 +30,3 @@ https://user-images.githubusercontent.com/126752734/225207455-28124eb6-d579-484d
 >>>>>>> b467389735c64e996664246e95383e47618d0947
 
 
-Good evening,
-@Lekha Mishra ma'am
-Please find my today task . 
-1.login GUI
-2.Discount page
