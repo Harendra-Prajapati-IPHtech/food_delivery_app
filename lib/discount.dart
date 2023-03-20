@@ -22,17 +22,15 @@ class _DiscountsState extends State<Discounts> {
         appBar: AppBar(
           toolbarHeight: 30,
           backgroundColor: Colors.red,
-          actions: [
-            InkWell(
-              onTap: () {
-                Navigator.pop(context);
-              },
-              child: const Padding(
-                padding: EdgeInsets.only(bottom: 8.0),
-                child: Icon(Icons.arrow_back_ios),
-              ),
+          leading: InkWell(
+            onTap: () {
+              Navigator.pop(context);
+            },
+            child: const Padding(
+              padding: EdgeInsets.only(bottom: 8.0),
+              child: Icon(Icons.arrow_back_ios),
             ),
-          ],
+          ),
         ),
         body: SingleChildScrollView(
           child: Column(
