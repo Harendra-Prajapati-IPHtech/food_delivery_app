@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'Burger.dart';
 
 class Discounts extends StatefulWidget {
-  const Discounts({super.key}); 
+  const Discounts({super.key});
 
   @override
   State<Discounts> createState() => _DiscountsState();
@@ -60,6 +60,148 @@ class _DiscountsState extends State<Discounts> {
                   child: Text(
                     'Deal of the Day',
                     style: TextStyle(color: Colors.white, fontSize: 15),
+                  ),
+                ),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 200,
+                    width: double.infinity,
+                    decoration: const BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage('assets/images/homefood4.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                    child: Expanded(
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: const [
+                                Text(
+                                  'Burgers',
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text('Up to 70% Discount ',
+                                    style: TextStyle(
+                                        color: Colors.yellow,
+                                        fontWeight: FontWeight.bold)),
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 130.0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: const [
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star_half,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 200,
+                    width: double.infinity,
+                    decoration: const BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage('assets/images/pizza1.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                    child: Expanded(
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: const [
+                                Text(
+                                  'Burgers',
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text('Up to 70% Discount ',
+                                    style: TextStyle(
+                                        color: Colors.yellow,
+                                        fontWeight: FontWeight.bold)),
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 130.0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: const [
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star_half,
+                                  color: Colors.red,
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
                   ),
                 ),
               ),
@@ -134,121 +276,72 @@ class _DiscountsState extends State<Discounts> {
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('assets/images/homefood3.jpeg'),
-                        fit: BoxFit.cover),
-                  ),
-                  child: const Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      'Up to 30% Discounts on soft drinks',
-                      textAlign: TextAlign.justify,
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                      ),
+              InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 200,
+                    width: double.infinity,
+                    decoration: const BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage('assets/images/homefood1.jpeg'),
+                          fit: BoxFit.cover),
                     ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('assets/images/homefood1.jpeg'),
-                        fit: BoxFit.cover),
-                  ),
-                  child: const Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      'Up to 90% Discounts on snacks',
-                      textAlign: TextAlign.justify,
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.red,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('assets/images/homefood.jpeg'),
-                        fit: BoxFit.cover),
-                  ),
-                  child: const Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      'Up to 60% Discounts sweets',
-                      textAlign: TextAlign.justify,
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.red,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('assets/images/homefood2.jpeg'),
-                        fit: BoxFit.cover),
-                  ),
-                  child: const Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      'Up to 50% Discounts on NonVeg',
-                      textAlign: TextAlign.justify,
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('assets/images/homefood3.jpeg'),
-                        fit: BoxFit.cover),
-                  ),
-                  child: const Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      'Up to 40% Discounts on FastFoods',
-                      textAlign: TextAlign.justify,
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.red,
-                        fontWeight: FontWeight.bold,
+                    child: Expanded(
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: const [
+                                Text(
+                                  'Burgers',
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text('Up to 70% Discount ',
+                                    style: TextStyle(
+                                        color: Colors.yellow,
+                                        fontWeight: FontWeight.bold)),
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 130.0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: const [
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star_half,
+                                  color: Colors.red,
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
                       ),
                     ),
                   ),
