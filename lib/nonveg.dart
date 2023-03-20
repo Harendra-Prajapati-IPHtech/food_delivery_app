@@ -24,10 +24,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger1.jpeg',
+                    'assets/images/nonveg1.jpeg',
                   ),
                 ),
-                title: Text('Chicken Burger'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -42,10 +42,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger2.jpeg',
+                    'assets/images/nonveg2.jpeg',
                   ),
                 ),
-                title: Text('Veg Burger'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -60,10 +60,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger6.jpeg',
+                    'assets/images/nonveg3.jpeg',
                   ),
                 ),
-                title: Text('Cheese Burger'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -78,10 +78,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger4.jpeg',
+                    'assets/images/nonveg4.jpeg',
                   ),
                 ),
-                title: Text('Lentil and Mushroom Burger.'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -96,10 +96,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger11.jpeg',
+                    'assets/images/nonveg5.jpeg',
                   ),
                 ),
-                title: Text('Stuffed Bean Burger.'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -114,10 +114,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger12.jpeg',
+                    'assets/images/nonveg6.jpeg',
                   ),
                 ),
-                title: Text('Lamb Burger with Radish Slaw.'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -132,10 +132,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger3.jpeg',
+                    'assets/images/nonveg7.jpeg',
                   ),
                 ),
-                title: Text('Potato Corn Burger.'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -150,10 +150,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger7.jpeg',
+                    'assets/images/nonveg8.jpeg',
                   ),
                 ),
-                title: Text('Supreme Veggie Burger.'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -168,10 +168,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger9.jpeg',
+                    'assets/images/nonveg10.jpeg',
                   ),
                 ),
-                title: Text('Butter Chicken Twin Burgers.'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -186,10 +186,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger7.jpeg',
+                    'assets/images/nonveg11.jpeg',
                   ),
                 ),
-                title: Text('Rajma Patty Burger.'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,
@@ -204,10 +204,10 @@ class NonVeg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger4.jpeg',
+                    'assets/images/nonveg8.jpeg',
                   ),
                 ),
-                title: Text('Pizza Burger.'),
+                title: Text('nonveg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null,

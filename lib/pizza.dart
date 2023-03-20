@@ -30,7 +30,11 @@ class Pizza extends StatelessWidget {
                 title: Text('Chicken pizza'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(

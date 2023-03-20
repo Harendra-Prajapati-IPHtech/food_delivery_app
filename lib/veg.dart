@@ -1,8 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Veg extends StatelessWidget {
+class Veg extends StatefulWidget {
   const Veg({super.key});
 
+  @override
+  State<Veg> createState() => _VegState();
+}
+
+class _VegState extends State<Veg> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -30,6 +35,10 @@ class Veg extends StatelessWidget {
                 title: Text('veg'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
+                    selectedIcon: Icon(
+                      Icons.shopping_cart,
+                      color: Colors.red,
+                    ),
                     onPressed: null,
                     icon: Icon(
                       Icons.shopping_cart_outlined,
@@ -204,7 +213,7 @@ class Veg extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/veg11.jpeg',
+                    'assets/images/veg1.jpeg',
                   ),
                 ),
                 title: Text('veg'),

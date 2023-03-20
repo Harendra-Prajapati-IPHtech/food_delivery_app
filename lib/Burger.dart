@@ -30,7 +30,11 @@ class Burger extends StatelessWidget {
                 title: Text('Chicken Burger'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -44,7 +48,11 @@ class Burger extends StatelessWidget {
                 title: Text('Veg Burger'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -58,7 +66,11 @@ class Burger extends StatelessWidget {
                 title: Text('Cheese Burger'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -72,7 +84,11 @@ class Burger extends StatelessWidget {
                 title: Text('Lentil and Mushroom Burger.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -86,7 +102,11 @@ class Burger extends StatelessWidget {
                 title: Text('Stuffed Bean Burger.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -100,7 +120,11 @@ class Burger extends StatelessWidget {
                 title: Text('Lamb Burger with Radish Slaw.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -114,7 +138,11 @@ class Burger extends StatelessWidget {
                 title: Text('Potato Corn Burger.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -128,7 +156,11 @@ class Burger extends StatelessWidget {
                 title: Text('Supreme Veggie Burger.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -142,7 +174,11 @@ class Burger extends StatelessWidget {
                 title: Text('Butter Chicken Twin Burgers.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -156,7 +192,11 @@ class Burger extends StatelessWidget {
                 title: Text('Rajma Patty Burger.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -170,7 +210,11 @@ class Burger extends StatelessWidget {
                 title: Text('Pizza Burger.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
           ],
