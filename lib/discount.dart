@@ -165,8 +165,9 @@ class _DiscountsState extends State<Discounts> {
                                 ),
                                 Text('Up to 70% Discount ',
                                     style: TextStyle(
-                                        color: Colors.yellow,
-                                        fontWeight: FontWeight.bold)),
+                                        color: Color.fromARGB(255, 5, 34, 255),
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 15)),
                               ],
                             ),
                           ),
