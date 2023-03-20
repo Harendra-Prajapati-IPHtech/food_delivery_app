@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/cake.dart';
+import 'package:food_delivery_app/nonveg.dart';
+import 'package:food_delivery_app/pizza.dart';
+import 'package:food_delivery_app/softdrink.dart';
+import 'package:food_delivery_app/veg.dart';
 
 import 'Burger.dart';
 
@@ -137,7 +142,7 @@ class _DiscountsState extends State<Discounts> {
               InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
+                      MaterialPageRoute(builder: (context) => const Pizza()));
                 },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -209,7 +214,7 @@ class _DiscountsState extends State<Discounts> {
               InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
+                      MaterialPageRoute(builder: (context) => const Cake()));
                 },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -279,8 +284,10 @@ class _DiscountsState extends State<Discounts> {
               ),
               InkWell(
                 onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const SoftDrink()));
                 },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -351,7 +358,7 @@ class _DiscountsState extends State<Discounts> {
               InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
+                      MaterialPageRoute(builder: (context) => const Veg()));
                 },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
@@ -422,7 +429,7 @@ class _DiscountsState extends State<Discounts> {
               InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
+                      MaterialPageRoute(builder: (context) => const NonVeg()));
                 },
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
