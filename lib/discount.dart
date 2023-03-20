@@ -134,6 +134,20 @@ class _DiscountsState extends State<Discounts> {
                   ),
                 ),
               ),
+              InkWell(
+                  onTap: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => Burger()));
+                  },
+                  child: Column(
+                    children: [
+                      Image.asset('assets/images/homefood.jpeg'),
+                      const ListTile(
+                        title: Text('hello'),
+                        subtitle: Text('hello'),
+                      ),
+                    ],
+                  )),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
