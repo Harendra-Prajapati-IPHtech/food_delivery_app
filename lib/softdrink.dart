@@ -24,13 +24,17 @@ class SoftDrink extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger1.jpeg',
+                    'assets/images/siftdrink1.jpeg',
                   ),
                 ),
-                title: Text('Chicken Burger'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -41,10 +45,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger2.jpeg',
                   ),
                 ),
-                title: Text('Veg Burger'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -55,10 +63,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger6.jpeg',
                   ),
                 ),
-                title: Text('Cheese Burger'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -69,10 +81,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger4.jpeg',
                   ),
                 ),
-                title: Text('Lentil and Mushroom Burger.'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -83,10 +99,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger11.jpeg',
                   ),
                 ),
-                title: Text('Stuffed Bean Burger.'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -97,10 +117,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger12.jpeg',
                   ),
                 ),
-                title: Text('Lamb Burger with Radish Slaw.'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -111,10 +135,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger3.jpeg',
                   ),
                 ),
-                title: Text('Potato Corn Burger.'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -125,10 +153,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger7.jpeg',
                   ),
                 ),
-                title: Text('Supreme Veggie Burger.'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -139,10 +171,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger9.jpeg',
                   ),
                 ),
-                title: Text('Butter Chicken Twin Burgers.'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -153,10 +189,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger7.jpeg',
                   ),
                 ),
-                title: Text('Rajma Patty Burger.'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -167,10 +207,14 @@ class SoftDrink extends StatelessWidget {
                     'assets/images/burger4.jpeg',
                   ),
                 ),
-                title: Text('Pizza Burger.'),
+                title: Text('Soft Drink'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
           ],
