@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Burger.dart';
+
 class Discounts extends StatefulWidget {
   const Discounts({super.key});
 
@@ -61,23 +63,73 @@ class _DiscountsState extends State<Discounts> {
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('assets/images/homefood1.jpeg'),
-                        fit: BoxFit.cover),
-                  ),
-                  child: const Text(
-                    'Up to 50% Discounts',
-                    textAlign: TextAlign.left,
-                    style: TextStyle(
-                      fontSize: 20,
-                      color: Colors.white,
-                      fontWeight: FontWeight.bold,
+              InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 200,
+                    width: double.infinity,
+                    decoration: const BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage('assets/images/homefood1.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                    child: Expanded(
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: const [
+                                Text(
+                                  'Burgers',
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text('Up to 70% Discount ',
+                                    style: TextStyle(
+                                        color: Colors.yellow,
+                                        fontWeight: FontWeight.bold)),
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 130.0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: const [
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Colors.red,
+                                ),
+                                Icon(
+                                  Icons.star_half,
+                                  color: Colors.red,
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),
@@ -92,18 +144,7 @@ class _DiscountsState extends State<Discounts> {
                         image: AssetImage('assets/images/homefood.jpeg'),
                         fit: BoxFit.cover),
                   ),
-                  child: const Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      'Up to 75% Discounts South indian foods',
-                      textAlign: TextAlign.start,
-                      style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.black,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ),
+                  child: Row(),
                 ),
               ),
               Padding(
@@ -119,7 +160,7 @@ class _DiscountsState extends State<Discounts> {
                   child: const Padding(
                     padding: EdgeInsets.all(8.0),
                     child: Text(
-                      'Up to 30% Discounts soft drinks',
+                      'Up to 30% Discounts on soft drinks',
                       textAlign: TextAlign.justify,
                       style: TextStyle(
                         fontSize: 20,

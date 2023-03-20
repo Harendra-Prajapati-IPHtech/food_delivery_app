@@ -1,6 +1,6 @@
 # food_delivery_app
  
-- In this app i am using Basic Flutter.<br>
+- In this app i am using Basic Flutter to design this app.<br>
 - Multiple pages are available in this Project that contains home, delivery, dining, sign in ,sign up,forgot password,etc. <br>
 - login and signup .<br>
 - Users are able to search food items.<br>
@@ -8,6 +8,7 @@
 - Remove from cart.<br>
 - Place order.<br>
 - Cancel order.<br>
+
 <<<<<<< HEAD
 - track live location.<br>
 =======
