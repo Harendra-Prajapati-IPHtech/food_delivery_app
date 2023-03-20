@@ -134,33 +134,6 @@ class _DiscountsState extends State<Discounts> {
                   ),
                 ),
               ),
-              InkWell(
-                  onTap: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Burger()));
-                  },
-                  child: Column(
-                    children: [
-                      Image.asset('assets/images/homefood.jpeg'),
-                      const ListTile(
-                        title: Text('hello'),
-                        subtitle: Text('hello'),
-                      ),
-                    ],
-                  )),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Container(
-                  height: 200,
-                  width: double.infinity,
-                  decoration: const BoxDecoration(
-                    image: DecorationImage(
-                        image: AssetImage('assets/images/homefood.jpeg'),
-                        fit: BoxFit.cover),
-                  ),
-                  child: Row(),
-                ),
-              ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
