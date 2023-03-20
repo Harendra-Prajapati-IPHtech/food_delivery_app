@@ -24,10 +24,10 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger1.jpeg',
+                    'assets/images/pizza1.jpeg',
                   ),
                 ),
-                title: Text('Chicken Burger'),
+                title: Text('Chicken pizza'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
                     onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
@@ -38,13 +38,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger2.jpeg',
+                    'assets/images/pizza2.jpeg',
                   ),
                 ),
-                title: Text('Veg Burger'),
+                title: Text('Veg pizza'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -52,13 +56,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger6.jpeg',
+                    'assets/images/pizza3.jpeg',
                   ),
                 ),
-                title: Text('Cheese Burger'),
+                title: Text('Cheese pizza'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -66,13 +74,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger4.jpeg',
+                    'assets/images/pizza8.jpeg',
                   ),
                 ),
-                title: Text('Lentil and Mushroom Burger.'),
+                title: Text('Lentil and Mushroom pizza.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -80,13 +92,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger11.jpeg',
+                    'assets/images/pizza5.jpeg',
                   ),
                 ),
-                title: Text('Stuffed Bean Burger.'),
+                title: Text('Stuffed Bean pizza.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -94,13 +110,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger12.jpeg',
+                    'assets/images/pizza6.jpeg',
                   ),
                 ),
-                title: Text('Lamb Burger with Radish Slaw.'),
+                title: Text('Lamb pizza with Radish Slaw.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -108,13 +128,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger3.jpeg',
+                    'assets/images/pizza7.jpeg',
                   ),
                 ),
-                title: Text('Potato Corn Burger.'),
+                title: Text('Potato Corn pizza.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -122,13 +146,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger7.jpeg',
+                    'assets/images/pizza8.jpeg',
                   ),
                 ),
-                title: Text('Supreme Veggie Burger.'),
+                title: Text('Supreme Veggie pizza.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -136,13 +164,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger9.jpeg',
+                    'assets/images/pizza9.jpeg',
                   ),
                 ),
-                title: Text('Butter Chicken Twin Burgers.'),
+                title: Text('Butter Chicken Twin pizza.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -150,13 +182,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger7.jpeg',
+                    'assets/images/pizza10.jpeg',
                   ),
                 ),
-                title: Text('Rajma Patty Burger.'),
+                title: Text('Rajma Patty pizza.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
             Padding(
@@ -164,13 +200,17 @@ class Pizza extends StatelessWidget {
               child: ListTile(
                 leading: CircleAvatar(
                   backgroundImage: AssetImage(
-                    'assets/images/burger4.jpeg',
+                    'assets/images/pizza1.jpeg',
                   ),
                 ),
-                title: Text('Pizza Burger.'),
+                title: Text('Pizza pizza.'),
                 subtitle: Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
+                    onPressed: null,
+                    icon: Icon(
+                      Icons.shopping_cart_outlined,
+                      color: Colors.red,
+                    )),
               ),
             ),
           ],

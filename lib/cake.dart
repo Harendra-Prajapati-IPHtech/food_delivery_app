@@ -18,163 +18,207 @@ class Cake extends StatelessWidget {
         ),
       ),
       body: ListView(
-          children: const [
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger1.jpeg',
-                  ),
+        children: const [
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake1.jpeg',
                 ),
-                title: Text('Chicken Burger'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger2.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake2.jpeg',
                 ),
-                title: Text('Veg Burger'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger6.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake3.jpeg',
                 ),
-                title: Text('Cheese Burger'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger4.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake4.jpeg',
                 ),
-                title: Text('Lentil and Mushroom Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger11.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake5.jpeg',
                 ),
-                title: Text('Stuffed Bean Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger12.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake6.jpeg',
                 ),
-                title: Text('Lamb Burger with Radish Slaw.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger3.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake7.jpeg',
                 ),
-                title: Text('Potato Corn Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger7.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake8.jpeg',
                 ),
-                title: Text('Supreme Veggie Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger9.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake9.jpeg',
                 ),
-                title: Text('Butter Chicken Twin Burgers.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger7.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake12.jpeg',
                 ),
-                title: Text('Rajma Patty Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-            Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger4.jpeg',
-                  ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/cake11.jpeg',
                 ),
-                title: Text('Pizza Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null, icon: Icon(Icons.shopping_cart_outlined)),
               ),
+              title: Text('cake'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: IconButton(
+                  onPressed: null,
+                  icon: Icon(
+                    Icons.shopping_cart_outlined,
+                    color: Colors.red,
+                  )),
             ),
-          ],
-        ),
+          ),
+        ],
+      ),
     ));
   }
 }
