@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'Burger.dart';
 
 class Discounts extends StatefulWidget {
-  const Discounts({super.key});
+  const Discounts({super.key}); 
 
   @override
   State<Discounts> createState() => _DiscountsState();
