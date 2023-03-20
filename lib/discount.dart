@@ -157,7 +157,7 @@ class _DiscountsState extends State<Discounts> {
                             child: Column(
                               children: const [
                                 Text(
-                                  'Burgers',
+                                  'Pizza',
                                   style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 20,
@@ -178,23 +178,165 @@ class _DiscountsState extends State<Discounts> {
                               children: const [
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star_border_outlined,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 200,
+                    width: double.infinity,
+                    decoration: const BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage('assets/images/cake.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                    child: Expanded(
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: const [
+                                Text(
+                                  'Cakes',
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text('Up to 60% Discount ',
+                                    style: TextStyle(
+                                        color: Colors.yellow,
+                                        fontWeight: FontWeight.bold)),
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 130.0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: const [
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star_half,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                              ],
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+              InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 200,
+                    width: double.infinity,
+                    decoration: const BoxDecoration(
+                      image: DecorationImage(
+                          image: AssetImage('assets/images/softdrink.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                    child: Expanded(
+                      child: Row(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: const [
+                                Text(
+                                  'Soft Drinks',
+                                  style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 20,
+                                      fontWeight: FontWeight.bold),
+                                ),
+                                Text('Up to 70% Discount ',
+                                    style: TextStyle(
+                                        color: Colors.yellow,
+                                        fontWeight: FontWeight.bold)),
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsets.only(top: 130.0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.end,
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: const [
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star,
+                                  color: Color.fromARGB(255, 255, 136, 0),
+                                ),
+                                Icon(
+                                  Icons.star_half,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                               ],
                             ),
@@ -228,13 +370,13 @@ class _DiscountsState extends State<Discounts> {
                             child: Column(
                               children: const [
                                 Text(
-                                  'Burgers',
+                                  'Veg',
                                   style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 20,
                                       fontWeight: FontWeight.bold),
                                 ),
-                                Text('Up to 70% Discount ',
+                                Text('Up to 55% Discount ',
                                     style: TextStyle(
                                         color: Colors.yellow,
                                         fontWeight: FontWeight.bold)),
@@ -249,23 +391,23 @@ class _DiscountsState extends State<Discounts> {
                               children: const [
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star_half,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                               ],
                             ),
@@ -288,7 +430,7 @@ class _DiscountsState extends State<Discounts> {
                     width: double.infinity,
                     decoration: const BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('assets/images/homefood1.jpeg'),
+                          image: AssetImage('assets/images/non-veg2.png'),
                           fit: BoxFit.cover),
                     ),
                     child: Expanded(
@@ -299,7 +441,7 @@ class _DiscountsState extends State<Discounts> {
                             child: Column(
                               children: const [
                                 Text(
-                                  'Burgers',
+                                  'Non-veg',
                                   style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 20,
@@ -320,23 +462,23 @@ class _DiscountsState extends State<Discounts> {
                               children: const [
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                                 Icon(
                                   Icons.star_half,
-                                  color: Colors.red,
+                                  color: Color.fromARGB(255, 255, 136, 0),
                                 ),
                               ],
                             ),
