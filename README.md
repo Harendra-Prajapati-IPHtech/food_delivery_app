@@ -23,12 +23,7 @@ https://user-images.githubusercontent.com/126752734/225207455-28124eb6-d579-484d
 
 
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-14 at 18 47 07](https://user-images.githubusercontent.com/126752734/225207627-ade1b78b-2287-472e-8997-103f5109d33c.png)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-14 at 18 21 12](https://user-images.githubusercontent.com/126752734/225207667-5bc51ac1-267d-4f16-8f09-3370160c3b3c.png)
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-14 at 18 47 15](https://user-images.githubusercontent.com/126752734/225207754-b584ee3e-2cb9-48c8-b778-221e16750475.png)
 
-![Simulator Screen Shot - iPhone 14 Pro ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-16 at 18 55 07](https://user-images.githubusercontent.com/126752734/225633790-2d4a3df6-6f5a-4b0a-8704-e87b064fb3eb.png)
-- 2023-03-14 at 18 47 31](https://user-images.githubusercontent.com/126752734/225207736-9e802d18-dd24-4ba2-a5dd-9441c6936375.png)
 
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-16 at 18 54 37](https://user-images.githubusercontent.com/126752734/225633807-3123d35c-a004-4737-9953-7ca9847b0132.png)
 
