@@ -107,23 +107,23 @@ class _DiscountsState extends State<Discounts> {
                               children: const [
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star_half,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                               ],
                             ),
@@ -178,23 +178,23 @@ class _DiscountsState extends State<Discounts> {
                               children: const [
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star_border_outlined,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                               ],
                             ),
@@ -249,23 +249,23 @@ class _DiscountsState extends State<Discounts> {
                               children: const [
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star_half,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                               ],
                             ),
@@ -320,23 +320,23 @@ class _DiscountsState extends State<Discounts> {
                               children: const [
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
-                                  Icons.star_half,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  Icons.star_outline,
+                                  color: Colors.red,
                                 ),
                               ],
                             ),
@@ -391,23 +391,23 @@ class _DiscountsState extends State<Discounts> {
                               children: const [
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star_half,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                               ],
                             ),
@@ -462,23 +462,23 @@ class _DiscountsState extends State<Discounts> {
                               children: const [
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
                                   Icons.star,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  color: Colors.red,
                                 ),
                                 Icon(
-                                  Icons.star_half,
-                                  color: Color.fromARGB(255, 255, 136, 0),
+                                  Icons.star_outline,
+                                  color: Colors.red,
                                 ),
                               ],
                             ),
