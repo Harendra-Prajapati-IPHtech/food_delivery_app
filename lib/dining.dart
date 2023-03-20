@@ -124,7 +124,7 @@ class _DiningPagePageState extends State<DiningPage> {
                         trailing: const IconButton(
                           onPressed: null,
                           icon: Icon(
-                            Icons.star_border,
+                            Icons.shopping_cart_outlined,
                             color: Colors.white,
                           ),
                         ),

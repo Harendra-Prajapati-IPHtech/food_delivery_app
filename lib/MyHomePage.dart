@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/codeBackup.dart';
 import 'package:food_delivery_app/discount.dart';
 
 void main(List<String> args) {
