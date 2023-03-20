@@ -27,6 +27,7 @@ https://user-images.githubusercontent.com/126752734/225207455-28124eb6-d579-484d
 
 
 
+![Simulator Screen Shot - iPhone 14 Pro - 2023-03-20 at 18 26 50](https://user-images.githubusercontent.com/126752734/226354354-3f950ce7-4f2e-462f-a39a-b10cee17f369.png)
 
 
 >>>>>>> b467389735c64e996664246e95383e47618![Simulator Screen Shot - iPhone 14 Pro - 2023-03-16 at 18 55 07](https://user-images.githubusercontent.com/126752734/225633896-acabe521-d51b-49cd-86f7-e17d382149e9.png)
