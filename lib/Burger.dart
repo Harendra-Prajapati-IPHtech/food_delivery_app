@@ -1,7 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/cart_items.dart';
 
-class Burger extends StatelessWidget {
+class Burger extends StatefulWidget {
   const Burger({super.key});
+
+  @override
+  State<Burger> createState() => BurgerState();
+}
+
+class BurgerState extends State<Burger> {
+  String error = '';
+  int item = 0;
+  void increment() {
+    if (item < 9) {
+      item++;
+    }
+    setState(() {});
+  }
+
+  void decrement() {
+    if (item > 0) {
+      item--;
+    }
+    setState(() {});
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -16,28 +38,111 @@ class Burger extends StatelessWidget {
             },
             child: const Icon(Icons.arrow_back_ios_new_rounded),
           ),
+          actions: [
+            InkWell(
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => CartItem()));
+              },
+              child: const Icon(Icons.shopping_cart),
+            )
+          ],
         ),
         body: ListView(
-          children: const [
+          children: [
+            Row(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    height: 80,
+                    width: 80,
+                    decoration:
+                        BoxDecoration(borderRadius: BorderRadius.circular(4)),
+                    child: Image.asset(
+                      'assets/images/burger1.jpeg',
+                      height: 50,
+                      width: 50,
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => CartItem()));
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(25.0),
+                    child: Container(
+                      alignment: Alignment.topRight,
+                      height: 40,
+                      width: 100,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(8),
+                        color: Colors.red,
+                      ),
+                      child: const Center(
+                        child: Text(
+                          'go to cart',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+                Container(
+                  alignment: Alignment.center,
+                  height: 50,
+                  width: 110,
+                  decoration:
+                      BoxDecoration(borderRadius: BorderRadius.circular(8)),
+                  child: Row(
+                    children: [
+                      IconButton(
+                        onPressed: decrement,
+                        icon: const Icon(
+                          Icons.remove,
+                          color: Colors.red,
+                        ),
+                      ),
+                      Text(
+                        item.toString(),
+                        style: const TextStyle(
+                            fontSize: 18, fontWeight: FontWeight.bold),
+                      ),
+                      IconButton(
+                        onPressed: increment,
+                        icon: const Icon(
+                          Icons.add,
+                          color: Colors.red,
+                        ),
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            ),
             Padding(
-              padding: EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(8.0),
               child: ListTile(
-                leading: CircleAvatar(
+                leading: const CircleAvatar(
                   backgroundImage: AssetImage(
                     'assets/images/burger1.jpeg',
                   ),
                 ),
-                title: Text('Chicken Burger'),
-                subtitle: Text('Rs. 40 Only'),
+                title: const Text('Chicken Burger'),
+                subtitle: const Text('Rs. 40 Only'),
                 trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
+                    onPressed: () => increment(),
+                    icon: const Icon(
+                      Icons.add,
                       color: Colors.red,
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
@@ -55,7 +160,7 @@ class Burger extends StatelessWidget {
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
@@ -73,7 +178,7 @@ class Burger extends StatelessWidget {
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
@@ -91,7 +196,7 @@ class Burger extends StatelessWidget {
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
@@ -109,7 +214,7 @@ class Burger extends StatelessWidget {
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
@@ -127,7 +232,7 @@ class Burger extends StatelessWidget {
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
@@ -145,7 +250,7 @@ class Burger extends StatelessWidget {
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
@@ -163,7 +268,7 @@ class Burger extends StatelessWidget {
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
@@ -181,7 +286,7 @@ class Burger extends StatelessWidget {
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
@@ -199,7 +304,7 @@ class Burger extends StatelessWidget {
                     )),
               ),
             ),
-            Padding(
+            const Padding(
               padding: EdgeInsets.all(8.0),
               child: ListTile(
                 leading: CircleAvatar(
