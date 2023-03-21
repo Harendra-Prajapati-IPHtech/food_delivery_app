@@ -19,23 +19,20 @@ class Cake extends StatelessWidget {
       ),
       body: ListView(
         children: const [
-          Padding(
-            padding: EdgeInsets.all(8.0),
-            child: ListTile(
-              leading: CircleAvatar(
-                backgroundImage: AssetImage(
-                  'assets/images/cake1.jpeg',
-                ),
+          ListTile(
+            leading: CircleAvatar(
+              backgroundImage: AssetImage(
+                'assets/images/cake1.jpeg',
               ),
-              title: Text('cake'),
-              subtitle: Text('Rs. 40 Only'),
-              trailing: IconButton(
-                  onPressed: null,
-                  icon: Icon(
-                    Icons.shopping_cart_outlined,
-                    color: Colors.red,
-                  )),
             ),
+            title: Text('cake'),
+            subtitle: Text('Rs. 40 Only'),
+            trailing: IconButton(
+                onPressed: null,
+                icon: Icon(
+                  Icons.shopping_cart_outlined,
+                  color: Colors.red,
+                )),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),

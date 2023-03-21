@@ -42,7 +42,7 @@ class BurgerState extends State<Burger> {
             InkWell(
               onTap: () {
                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => CartItem()));
+                    MaterialPageRoute(builder: (context) => const CartItem()));
               },
               child: const Icon(Icons.shopping_cart),
             )
@@ -50,276 +50,433 @@ class BurgerState extends State<Burger> {
         ),
         body: ListView(
           children: [
-            Row(
-              children: [
-                Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    height: 80,
-                    width: 80,
-                    decoration:
-                        BoxDecoration(borderRadius: BorderRadius.circular(4)),
-                    child: Image.asset(
-                      'assets/images/burger1.jpeg',
-                      height: 50,
-                      width: 50,
-                    ),
-                  ),
+            ListTile(
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger1.jpeg',
                 ),
-                TextButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => CartItem()));
-                  },
-                  child: Padding(
-                    padding: const EdgeInsets.all(25.0),
-                    child: Container(
-                      alignment: Alignment.topRight,
-                      height: 40,
-                      width: 100,
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(8),
-                        color: Colors.red,
-                      ),
-                      child: const Center(
-                        child: Text(
-                          'go to cart',
-                          style: TextStyle(
-                            color: Colors.white,
-                          ),
-                        ),
+              ),
+              title: const Text('Chicken Burger'),
+              subtitle: const Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
                       ),
                     ),
-                  ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
                 ),
-                Container(
-                  alignment: Alignment.center,
-                  height: 50,
-                  width: 110,
-                  decoration:
-                      BoxDecoration(borderRadius: BorderRadius.circular(8)),
-                  child: Row(
-                    children: [
-                      IconButton(
-                        onPressed: decrement,
-                        icon: const Icon(
-                          Icons.remove,
-                          color: Colors.red,
-                        ),
+              ),
+            ),
+            ListTile(
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger2.jpeg',
+                ),
+              ),
+              title: const Text('Veg Burger'),
+              subtitle: const Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
                       ),
-                      Text(
-                        item.toString(),
-                        style: const TextStyle(
-                            fontSize: 18, fontWeight: FontWeight.bold),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
+                ),
+              ),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger6.jpeg',
+                ),
+              ),
+              title: Text('Cheese Burger'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
                       ),
-                      IconButton(
-                        onPressed: increment,
-                        icon: const Icon(
-                          Icons.add,
-                          color: Colors.red,
-                        ),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
+                ),
+              ),
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger4.jpeg',
+                ),
+              ),
+              title: Text('Lentil and Mushroom Burger.'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
                       ),
-                    ],
-                  ),
-                )
-              ],
-            ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: const CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger1.jpeg',
-                  ),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
                 ),
-                title: const Text('Chicken Burger'),
-                subtitle: const Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: () => increment(),
-                    icon: const Icon(
-                      Icons.add,
-                      color: Colors.red,
-                    )),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger2.jpeg',
-                  ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger11.jpeg',
                 ),
-                title: Text('Veg Burger'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
+              ),
+              title: Text('Stuffed Bean Burger.'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
+                ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger6.jpeg',
-                  ),
+            ListTile(
+              leading: const CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger12.jpeg',
                 ),
-                title: Text('Cheese Burger'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
+              ),
+              title: const Text('Lamb Burger with Radish Slaw.'),
+              subtitle: const Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
+                ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger4.jpeg',
-                  ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger3.jpeg',
                 ),
-                title: Text('Lentil and Mushroom Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
+              ),
+              title: Text('Potato Corn Burger.'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
+                ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger11.jpeg',
-                  ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger7.jpeg',
                 ),
-                title: Text('Stuffed Bean Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
+              ),
+              title: Text('Supreme Veggie Burger.'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
+                ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger12.jpeg',
-                  ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger9.jpeg',
                 ),
-                title: Text('Lamb Burger with Radish Slaw.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
+              ),
+              title: Text('Butter Chicken Twin Burgers.'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
+                ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger3.jpeg',
-                  ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger7.jpeg',
                 ),
-                title: Text('Potato Corn Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
+              ),
+              title: Text('Rajma Patty Burger.'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
+                ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
+                ),
               ),
             ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger7.jpeg',
-                  ),
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: AssetImage(
+                  'assets/images/burger4.jpeg',
                 ),
-                title: Text('Supreme Veggie Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
               ),
-            ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger9.jpeg',
-                  ),
+              title: Text('Pizza Burger.'),
+              subtitle: Text('Rs. 40 Only'),
+              trailing: Container(
+                height: 40,
+                width: 110,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  color: Colors.red,
                 ),
-                title: Text('Butter Chicken Twin Burgers.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
-              ),
-            ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger7.jpeg',
-                  ),
+                child: Row(
+                  children: [
+                    IconButton(
+                      onPressed: decrement,
+                      icon: const Icon(
+                        Icons.remove,
+                        color: Colors.white,
+                      ),
+                    ),
+                    Text(
+                      item.toString(),
+                      style: const TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white),
+                    ),
+                    IconButton(
+                      onPressed: increment,
+                      icon: const Icon(Icons.add, color: Colors.white),
+                    )
+                  ],
                 ),
-                title: Text('Rajma Patty Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
-              ),
-            ),
-            const Padding(
-              padding: EdgeInsets.all(8.0),
-              child: ListTile(
-                leading: CircleAvatar(
-                  backgroundImage: AssetImage(
-                    'assets/images/burger4.jpeg',
-                  ),
-                ),
-                title: Text('Pizza Burger.'),
-                subtitle: Text('Rs. 40 Only'),
-                trailing: IconButton(
-                    onPressed: null,
-                    icon: Icon(
-                      Icons.shopping_cart_outlined,
-                      color: Colors.red,
-                    )),
               ),
             ),
           ],
