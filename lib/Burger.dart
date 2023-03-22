@@ -129,13 +129,13 @@ class BurgerState extends State<Burger> {
               ),
             ),
             ListTile(
-              leading: CircleAvatar(
+              leading: const CircleAvatar(
                 backgroundImage: AssetImage(
                   'assets/images/burger6.jpeg',
                 ),
               ),
-              title: Text('Cheese Burger'),
-              subtitle: Text('Rs. 40 Only'),
+              title: const Text('Cheese Burger'),
+              subtitle: const Text('Rs. 40 Only'),
               trailing: Container(
                 height: 40,
                 width: 110,
@@ -168,13 +168,13 @@ class BurgerState extends State<Burger> {
               ),
             ),
             ListTile(
-              leading: CircleAvatar(
+              leading: const CircleAvatar(
                 backgroundImage: AssetImage(
                   'assets/images/burger4.jpeg',
                 ),
               ),
-              title: Text('Lentil and Mushroom Burger.'),
-              subtitle: Text('Rs. 40 Only'),
+              title: const Text('Lentil and Mushroom Burger.'),
+              subtitle: const Text('Rs. 40 Only'),
               trailing: Container(
                 height: 40,
                 width: 110,
@@ -207,13 +207,13 @@ class BurgerState extends State<Burger> {
               ),
             ),
             ListTile(
-              leading: CircleAvatar(
+              leading: const CircleAvatar(
                 backgroundImage: AssetImage(
                   'assets/images/burger11.jpeg',
                 ),
               ),
-              title: Text('Stuffed Bean Burger.'),
-              subtitle: Text('Rs. 40 Only'),
+              title: const Text('Stuffed Bean Burger.'),
+              subtitle: const Text('Rs. 40 Only'),
               trailing: Container(
                 height: 40,
                 width: 110,
@@ -285,13 +285,13 @@ class BurgerState extends State<Burger> {
               ),
             ),
             ListTile(
-              leading: CircleAvatar(
+              leading: const CircleAvatar(
                 backgroundImage: AssetImage(
                   'assets/images/burger3.jpeg',
                 ),
               ),
-              title: Text('Potato Corn Burger.'),
-              subtitle: Text('Rs. 40 Only'),
+              title: const Text('Potato Corn Burger.'),
+              subtitle: const Text('Rs. 40 Only'),
               trailing: Container(
                 height: 40,
                 width: 110,
@@ -324,13 +324,13 @@ class BurgerState extends State<Burger> {
               ),
             ),
             ListTile(
-              leading: CircleAvatar(
+              leading: const CircleAvatar(
                 backgroundImage: AssetImage(
                   'assets/images/burger7.jpeg',
                 ),
               ),
-              title: Text('Supreme Veggie Burger.'),
-              subtitle: Text('Rs. 40 Only'),
+              title: const Text('Supreme Veggie Burger.'),
+              subtitle: const Text('Rs. 40 Only'),
               trailing: Container(
                 height: 40,
                 width: 110,
@@ -363,13 +363,13 @@ class BurgerState extends State<Burger> {
               ),
             ),
             ListTile(
-              leading: CircleAvatar(
+              leading: const CircleAvatar(
                 backgroundImage: AssetImage(
                   'assets/images/burger9.jpeg',
                 ),
               ),
-              title: Text('Butter Chicken Twin Burgers.'),
-              subtitle: Text('Rs. 40 Only'),
+              title: const Text('Butter Chicken Twin Burgers.'),
+              subtitle: const Text('Rs. 40 Only'),
               trailing: Container(
                 height: 40,
                 width: 110,
@@ -402,13 +402,13 @@ class BurgerState extends State<Burger> {
               ),
             ),
             ListTile(
-              leading: CircleAvatar(
+              leading: const CircleAvatar(
                 backgroundImage: AssetImage(
                   'assets/images/burger7.jpeg',
                 ),
               ),
-              title: Text('Rajma Patty Burger.'),
-              subtitle: Text('Rs. 40 Only'),
+              title: const Text('Rajma Patty Burger.'),
+              subtitle: const Text('Rs. 40 Only'),
               trailing: Container(
                 height: 40,
                 width: 110,
@@ -441,13 +441,13 @@ class BurgerState extends State<Burger> {
               ),
             ),
             ListTile(
-              leading: CircleAvatar(
+              leading: const CircleAvatar(
                 backgroundImage: AssetImage(
                   'assets/images/burger4.jpeg',
                 ),
               ),
-              title: Text('Pizza Burger.'),
-              subtitle: Text('Rs. 40 Only'),
+              title: const Text('Pizza Burger.'),
+              subtitle: const Text('Rs. 40 Only'),
               trailing: Container(
                 height: 40,
                 width: 110,
