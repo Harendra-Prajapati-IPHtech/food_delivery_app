@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../burger/burgeritemviev.dart';
+
 void main(List<String> args) {
   runApp(const DiningPage());
 }
