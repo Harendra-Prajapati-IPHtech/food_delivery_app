@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'discount.dart';
+import '../discount.dart';
+
+
 
 void main(List<String> args) {
   runApp(const Home());

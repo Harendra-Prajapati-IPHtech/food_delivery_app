@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Burger.dart';
+import 'burger/Burger.dart';
 
 class CartItem extends StatefulWidget {
   const CartItem({super.key});

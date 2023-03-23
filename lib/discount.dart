@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/cake.dart';
-import 'package:food_delivery_app/nonveg.dart';
-import 'package:food_delivery_app/pizza.dart';
-import 'package:food_delivery_app/softdrink.dart';
-import 'package:food_delivery_app/veg.dart';
+import 'package:food_delivery_app/burger/burgeritemviev.dart';
+import 'package:food_delivery_app/nonveg/nonVegItems.dart';
+import 'package:food_delivery_app/pizza/pizzaItems.dart';
+import 'package:food_delivery_app/softDrink/softDrinkItems.dart';
+import 'package:food_delivery_app/veg/vegItems.dart';
 
-import 'Burger.dart';
+import 'cake/cakeItems.dart';
 
 class Discounts extends StatefulWidget {
   const Discounts({super.key});
@@ -66,434 +66,35 @@ class _DiscountsState extends State<Discounts> {
                   ),
                 ),
               ),
-              InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    height: 200,
-                    width: double.infinity,
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage('assets/images/homefood4.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Burgers',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Up to 70% Discount ',
-                                    style: TextStyle(
-                                        color: Colors.yellow,
-                                        fontWeight: FontWeight.bold)),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.only(top: 130.0),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              crossAxisAlignment: CrossAxisAlignment.end,
-                              children: const [
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star_half,
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
+              Container(
+                height: 200,
+                width: double.infinity,
+                child: BurgerItem1(),
               ),
-              InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Pizza()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    height: 200,
-                    width: double.infinity,
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage('assets/images/pizza1.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Pizza',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Up to 70% Discount ',
-                                    style: TextStyle(
-                                        color: Color.fromARGB(255, 5, 34, 255),
-                                        fontWeight: FontWeight.bold,
-                                        fontSize: 15)),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.only(top: 130.0),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              crossAxisAlignment: CrossAxisAlignment.end,
-                              children: const [
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star_border_outlined,
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
+              Container(
+                height: 200,
+                width: double.infinity,
+                child: PizzaItems1(),
               ),
-              InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Cake()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    height: 200,
-                    width: double.infinity,
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage('assets/images/cake.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Cakes',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Up to 60% Discount ',
-                                    style: TextStyle(
-                                        color: Colors.yellow,
-                                        fontWeight: FontWeight.bold)),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.only(top: 130.0),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              crossAxisAlignment: CrossAxisAlignment.end,
-                              children: const [
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star_half,
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
+              Container(
+                height: 200,
+                width: double.infinity,
+                child: CakeItems1(),
               ),
-              InkWell(
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => const SoftDrink()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    height: 200,
-                    width: double.infinity,
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage('assets/images/softdrink.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Soft Drinks',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Up to 70% Discount ',
-                                    style: TextStyle(
-                                        color: Colors.yellow,
-                                        fontWeight: FontWeight.bold)),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.only(top: 130.0),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              crossAxisAlignment: CrossAxisAlignment.end,
-                              children: const [
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star_outline,
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
+              Container(
+                height: 200,
+                width: double.infinity,
+                child: SoftDrinkItems1(),
               ),
-              InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Veg()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    height: 200,
-                    width: double.infinity,
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage('assets/images/homefood1.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Veg',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Up to 55% Discount ',
-                                    style: TextStyle(
-                                        color: Colors.yellow,
-                                        fontWeight: FontWeight.bold)),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.only(top: 130.0),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              crossAxisAlignment: CrossAxisAlignment.end,
-                              children: const [
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star_half,
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
+              Container(
+                height: 200,
+                width: double.infinity,
+                child: VegItems1(),
               ),
-              InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const NonVeg()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    height: 200,
-                    width: double.infinity,
-                    decoration: const BoxDecoration(
-                      image: DecorationImage(
-                          image: AssetImage('assets/images/non-veg2.png'),
-                          fit: BoxFit.cover),
-                    ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Non-veg',
-                                  style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 20,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Up to 70% Discount ',
-                                    style: TextStyle(
-                                        color: Colors.yellow,
-                                        fontWeight: FontWeight.bold)),
-                              ],
-                            ),
-                          ),
-                          Padding(
-                            padding: const EdgeInsets.only(top: 130.0),
-                            child: Row(
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              crossAxisAlignment: CrossAxisAlignment.end,
-                              children: const [
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star,
-                                  color: Colors.red,
-                                ),
-                                Icon(
-                                  Icons.star_outline,
-                                  color: Colors.red,
-                                ),
-                              ],
-                            ),
-                          )
-                        ],
-                      ),
-                    ),
-                  ),
-                ),
+              Container(
+                height: 200,
+                width: double.infinity,
+                child: NonVegItems(),
               ),
             ],
           ),

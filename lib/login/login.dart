@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/loginotp.dart';
-import 'package:food_delivery_app/Homepageview.dart';
+import 'package:food_delivery_app/login/loginotp.dart';
+import 'package:food_delivery_app/Home/Homepageview.dart';
 
 void main(List<String> args) {
   runApp(const login());

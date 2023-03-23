@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/login.dart';
-import 'MyHomePage.dart';
+import 'package:food_delivery_app/login/login.dart';
+import 'Home/MyHomePage.dart';
 import 'delivery.dart';
-import 'dining.dart';
+import 'dining/dining.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);

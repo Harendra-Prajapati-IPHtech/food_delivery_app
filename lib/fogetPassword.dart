@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/MyHomePage.dart';
-import 'dining.dart';
-import 'login.dart';
+import 'package:food_delivery_app/Home/MyHomePage.dart';
+
+import 'dining/dining.dart';
+import 'login/login.dart';
 import 'delivery.dart';
 
 class ForgetPassword extends StatefulWidget {

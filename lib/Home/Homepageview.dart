@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/Burger.dart';
-import 'package:food_delivery_app/home.dart';
+import 'package:food_delivery_app/burger/Burger.dart';
+import 'package:food_delivery_app/Home/home.dart';
 import 'package:food_delivery_app/dashboard.dart';
 import 'package:food_delivery_app/delivery.dart';
 import 'package:food_delivery_app/dining.dart';
-import 'package:food_delivery_app/sign_up.dart';
+import 'package:food_delivery_app/signUp/sign_up.dart';
 
 class HomePageView extends StatefulWidget {
   const HomePageView({super.key});
