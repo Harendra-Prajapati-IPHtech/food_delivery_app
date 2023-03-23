@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/Home/homePageItems.dart';
 
 import '../discount.dart';
-
-
 
 void main(List<String> args) {
   runApp(const Home());
@@ -102,18 +101,6 @@ class _DiningPagePageState extends State<Home> {
                 image: DecorationImage(
                     image: AssetImage('assets/images/homefood4.jpeg'),
                     fit: BoxFit.cover)),
-            // child: const Padding(
-            //   padding: EdgeInsets.only(top: 8.0),
-            //   child: Text(
-            //     'Just order and Enjoy your Day',
-            //     textAlign: TextAlign.start,
-            //     style: TextStyle(
-            //       fontSize: 30,
-            //       fontWeight: FontWeight.bold,
-            //       color: Colors.white,
-            //     ),
-            //   ),
-            // ),
           ),
           InkWell(
             onTap: () {
@@ -131,6 +118,11 @@ class _DiningPagePageState extends State<Home> {
                 ),
               ),
             ),
+          ),
+          const SizedBox(
+            height: 200,
+            width: double.infinity,
+            child: HomeItems1(),
           ),
           const SizedBox(
             height: 20,

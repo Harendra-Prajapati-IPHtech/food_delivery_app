@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/Home/homePageItems.dart';
 import 'package:food_delivery_app/discount.dart';
 
 void main(List<String> args) {
@@ -67,6 +68,11 @@ class _MyHomePageState extends State<MyHomePage> {
                     ],
                   ),
                 ),
+              ),
+              Container(
+                height: 200,
+                width: double.infinity,
+                child: HomeItems1(),
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 20),
