@@ -42,12 +42,3 @@ d0947![Simulator Screen Shot - iPhone 14 Pro - 2023-03-20 at 18 26 50](https://u
 
 
 
-Good evening,
-ma'am
-Please find my today task . 
-1.Added BurgerItems Page. 
-2.Added PizzaItems Page.
-3.Added CakeItems Page.
-4.Added SoftDrinkItems Page .
-5.Added VegItems Page.
-6.Added NonVegItems Page.
