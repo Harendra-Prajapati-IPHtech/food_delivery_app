@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/Home/HomePageItem2.dart';
-import 'package:food_delivery_app/Home/HomePageItems1.dart';
-import 'package:food_delivery_app/Home/homePageItems.dart';
 
 import 'login/login.dart';
 
