@@ -100,7 +100,7 @@ class _BurgerItem1State extends State<BurgerItem1> {
               width: double.infinity,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                image: DecorationImage(
+                image: const DecorationImage(
                     image: AssetImage('assets/images/burger12.jpeg'),
                     fit: BoxFit.cover),
               ),
