@@ -30,30 +30,54 @@ class HomeItems1 extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza5.jpeg'),
+                          image: AssetImage(
+                            'assets/images/veg3.jpeg',
+                          ),
                           fit: BoxFit.cover),
                     ),
                     child: Expanded(
                       child: Row(
                         children: [
                           Padding(
-                            padding:
-                                const EdgeInsets.only(top: 130.0, left: 20),
+                            padding: const EdgeInsets.only(
+                              top: 50.0,
+                            ),
                             child: Column(
-                              children: const [
-                                Text(
-                                  'Special',
-                                  style: TextStyle(
-                                      color: Color.fromARGB(255, 255, 255, 255),
-                                      fontSize: 40,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Discounts',
-                                    style: TextStyle(
-                                        color:
-                                            Color.fromARGB(255, 255, 255, 255),
-                                        fontSize: 30,
-                                        fontWeight: FontWeight.bold)),
+                              children: [
+                                Expanded(
+                                  child: Container(
+                                    width: 170,
+                                    height: 30,
+                                    color: const Color.fromARGB(95, 0, 0, 0),
+                                    margin: const EdgeInsets.all(10),
+                                    padding: const EdgeInsets.all(10),
+                                    child: Expanded(
+                                      child: Column(
+                                        children: const [
+                                          Padding(
+                                            padding: EdgeInsets.only(top: 70.0),
+                                            child: Text(
+                                              "Special",
+                                              style: TextStyle(
+                                                  fontSize: 40,
+                                                  color: Colors.white,
+                                                  fontWeight: FontWeight.bold),
+                                              textAlign: TextAlign.center,
+                                            ),
+                                          ),
+                                          Text(
+                                            "Discounts",
+                                            style: TextStyle(
+                                                fontSize: 20,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold),
+                                            textAlign: TextAlign.center,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                )
                               ],
                             ),
                           ),
@@ -80,7 +104,7 @@ class HomeItems1 extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/burger4.jpeg'),
+                          image: AssetImage('assets/images/homefood1.jpeg'),
                           fit: BoxFit.cover),
                     ),
                     child: Expanded(
@@ -94,14 +118,14 @@ class HomeItems1 extends StatelessWidget {
                                 Text(
                                   'Special',
                                   style: TextStyle(
-                                      color: Color.fromARGB(255, 255, 255, 255),
+                                      color: Color.fromARGB(255, 244, 6, 6),
                                       fontSize: 40,
                                       fontWeight: FontWeight.bold),
                                 ),
                                 Text('Discounts',
                                     style: TextStyle(
                                         color:
-                                            Color.fromARGB(255, 255, 255, 255),
+                                            Color.fromARGB(255, 251, 153, 153),
                                         fontSize: 30,
                                         fontWeight: FontWeight.bold)),
                               ],
@@ -139,19 +163,22 @@ class HomeItems1 extends StatelessWidget {
                       child: Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding:
+                                const EdgeInsets.only(top: 130.0, left: 20),
                             child: Column(
                               children: const [
                                 Text(
-                                  'Burgers',
+                                  'Special',
                                   style: TextStyle(
-                                      color: Color.fromARGB(255, 248, 5, 5),
-                                      fontSize: 20,
+                                      color: Color.fromARGB(255, 255, 255, 255),
+                                      fontSize: 40,
                                       fontWeight: FontWeight.bold),
                                 ),
-                                Text('Up to 70%',
+                                Text('Discounts',
                                     style: TextStyle(
-                                        color: Colors.yellow,
+                                        color:
+                                            Color.fromARGB(255, 255, 255, 255),
+                                        fontSize: 30,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -184,19 +211,22 @@ class HomeItems1 extends StatelessWidget {
                       child: Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding:
+                                const EdgeInsets.only(top: 130.0, left: 20),
                             child: Column(
                               children: const [
                                 Text(
-                                  'Burgers',
+                                  'Special',
                                   style: TextStyle(
-                                      color: Color.fromARGB(255, 248, 5, 5),
-                                      fontSize: 20,
+                                      color: Color.fromARGB(255, 255, 255, 255),
+                                      fontSize: 40,
                                       fontWeight: FontWeight.bold),
                                 ),
-                                Text('Up to 70%',
+                                Text('Discounts',
                                     style: TextStyle(
-                                        color: Colors.yellow,
+                                        color:
+                                            Color.fromARGB(255, 255, 255, 255),
+                                        fontSize: 30,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -233,19 +263,22 @@ class HomeItems1 extends StatelessWidget {
                       child: Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding:
+                                const EdgeInsets.only(top: 130.0, left: 20),
                             child: Column(
                               children: const [
                                 Text(
-                                  'Burgers',
+                                  'Special',
                                   style: TextStyle(
-                                      color: Color.fromARGB(255, 248, 5, 5),
-                                      fontSize: 20,
+                                      color: Color.fromARGB(255, 255, 255, 255),
+                                      fontSize: 40,
                                       fontWeight: FontWeight.bold),
                                 ),
-                                Text('Up to 70%',
+                                Text('Discounts',
                                     style: TextStyle(
-                                        color: Colors.yellow,
+                                        color:
+                                            Color.fromARGB(255, 255, 255, 255),
+                                        fontSize: 30,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
@@ -278,19 +311,22 @@ class HomeItems1 extends StatelessWidget {
                       child: Row(
                         children: [
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding:
+                                const EdgeInsets.only(top: 130.0, left: 20),
                             child: Column(
                               children: const [
                                 Text(
-                                  'Burgers',
+                                  'Special',
                                   style: TextStyle(
-                                      color: Color.fromARGB(255, 248, 5, 5),
-                                      fontSize: 20,
+                                      color: Color.fromARGB(255, 255, 255, 255),
+                                      fontSize: 40,
                                       fontWeight: FontWeight.bold),
                                 ),
-                                Text('Up to 70%',
+                                Text('Discounts',
                                     style: TextStyle(
-                                        color: Colors.yellow,
+                                        color:
+                                            Color.fromARGB(255, 255, 255, 255),
+                                        fontSize: 30,
                                         fontWeight: FontWeight.bold)),
                               ],
                             ),
