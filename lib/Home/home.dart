@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/Home/HomePageItems3.dart';
+import 'package:food_delivery_app/Home/HomeTopBar.dart';
+import 'package:food_delivery_app/Home/HomepageItems4.dart';
 import 'package:food_delivery_app/Home/menuBar.dart';
 import 'package:food_delivery_app/Home/search.dart';
 import 'package:food_delivery_app/restaurent/restaurent1.dart';
@@ -30,6 +32,11 @@ class _DiningPagePageState extends State<Home> {
     return SingleChildScrollView(
       child: Column(
         children: const [
+          SizedBox(
+            height: 70,
+            width: double.infinity,
+            child: HomeTopBar(),
+          ),
           SizedBox(
             height: 70,
             width: double.infinity,
@@ -78,7 +85,7 @@ class _DiningPagePageState extends State<Home> {
           SizedBox(
             height: 100,
             width: double.infinity,
-            child: HomePageItems3(),
+            child: HomePageItems4(),
           ),
           Padding(
             padding: EdgeInsets.all(30.0),

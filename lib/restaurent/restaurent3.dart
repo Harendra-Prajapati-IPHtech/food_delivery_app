@@ -24,7 +24,7 @@ class Restaurent3 extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 image: const DecorationImage(
-                    image: AssetImage('assets/images/homefood4.jpeg'),
+                    image: AssetImage('assets/images/homefood3.jpeg'),
                     fit: BoxFit.cover),
               ),
               child: Expanded(
@@ -96,7 +96,7 @@ class Restaurent3 extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 image: const DecorationImage(
-                    image: AssetImage('assets/images/burger12.jpeg'),
+                    image: AssetImage('assets/images/homefood2.jpeg'),
                     fit: BoxFit.cover),
               ),
               child: Expanded(
@@ -168,7 +168,7 @@ class Restaurent3 extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
                 image: DecorationImage(
-                    image: AssetImage('assets/images/burger11.jpeg'),
+                    image: AssetImage('assets/images/homefood4.jpeg'),
                     fit: BoxFit.cover),
               ),
               child: Expanded(

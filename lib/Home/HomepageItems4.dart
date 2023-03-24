@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import '../burger/Burger.dart';
 
-class HomePaheItems2 extends StatelessWidget {
-  const HomePaheItems2({super.key});
+class HomePageItems4 extends StatelessWidget {
+  const HomePageItems4({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -14,35 +14,6 @@ class HomePaheItems2 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Expanded(
-              child: Column(
-                children: [
-                  InkWell(
-                    onTap: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const Burger()));
-                    },
-                    child: Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          image: const DecorationImage(
-                              image: AssetImage('assets/images/pizza1.jpeg'),
-                              fit: BoxFit.cover),
-                        ),
-                      ),
-                    ),
-                  ),
-                  Text(
-                    'data',
-                    style: TextStyle(fontSize: 50),
-                  ),
-                ],
-              ),
-            ),
-            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -52,9 +23,9 @@ class HomePaheItems2 extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(40),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza2.jpeg'),
+                          image: AssetImage('assets/images/samosa.jpeg'),
                           fit: BoxFit.cover),
                     ),
                   ),
@@ -71,34 +42,9 @@ class HomePaheItems2 extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(40),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza3.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza6.jpeg'),
+                          image: AssetImage('assets/images/chokolate.jpeg'),
                           fit: BoxFit.cover),
                     ),
                   ),
@@ -115,9 +61,9 @@ class HomePaheItems2 extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(40),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza7.jpeg'),
+                          image: AssetImage('assets/images/softdrink.jpeg'),
                           fit: BoxFit.cover),
                     ),
                   ),
@@ -134,9 +80,9 @@ class HomePaheItems2 extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(40),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza8.jpeg'),
+                          image: AssetImage('assets/images/burger1.jpeg'),
                           fit: BoxFit.cover),
                     ),
                   ),
@@ -159,9 +105,9 @@ class HomePaheItems2 extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(40),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza10.jpeg'),
+                          image: AssetImage('assets/images/pastries2.jpeg'),
                           fit: BoxFit.cover),
                     ),
                   ),
@@ -178,9 +124,9 @@ class HomePaheItems2 extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(40),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza1.jpeg'),
+                          image: AssetImage('assets/images/pastries1.jpeg'),
                           fit: BoxFit.cover),
                     ),
                   ),
@@ -197,9 +143,110 @@ class HomePaheItems2 extends StatelessWidget {
                   padding: const EdgeInsets.all(8.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
+                      borderRadius: BorderRadius.circular(40),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza2.jpeg'),
+                          image: AssetImage('assets/images/shake.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(40),
+                      image: const DecorationImage(
+                          image: AssetImage('assets/images/momos.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Expanded(
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(40),
+                      image: const DecorationImage(
+                          image: AssetImage('assets/images/laddoo.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(40),
+                      image: const DecorationImage(
+                          image: AssetImage('assets/images/sweet1.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(40),
+                      image: const DecorationImage(
+                          image: AssetImage('assets/images/sweet2.jpeg'),
+                          fit: BoxFit.cover),
+                    ),
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              child: InkWell(
+                onTap: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => const Burger()));
+                },
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(40),
+                      image: const DecorationImage(
+                          image: AssetImage('assets/images/sweet3.webp'),
                           fit: BoxFit.cover),
                     ),
                   ),
