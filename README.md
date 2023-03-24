@@ -23,7 +23,20 @@ https://user-images.githubusercontent.com/126752734/227423489-6017a985-40dc-4345
 
 
 
+
+
+
 # GUI till now
+
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-24 at 19 02 30](https://user-images.githubusercontent.com/126752734/227535644-60703c24-b1db-4708-81c1-b8586b0359a2.png)
+
+
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-24 at 19 02 42](https://user-images.githubusercontent.com/126752734/227535650-0c474e44-d115-49f2-b26c-6affde563f30.png)
+
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-24 at 19 02 50](https://user-images.githubusercontent.com/126752734/227535679-63d9ceb6-9934-44c2-a3b5-b4c520f0d4e2.png)
+
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-24 at 19 02 57](https://user-images.githubusercontent.com/126752734/227535705-4576d931-31f0-4dfc-baa0-c66a8a6cd25a.png)
+
 
 
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-20 at 18 26 42](https://user-images.githubusercontent.com/126752734/226351608-47feb630-9469-4968-ad84-5318eaac6edd.png)
