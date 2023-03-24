@@ -17,7 +17,11 @@
 
 ## outputs
 
-https://user-images.githubusercontent.com/126752734/225207455-28124eb6-d579-484d-a716-0a4f1a8527ea.mp4
+
+
+https://user-images.githubusercontent.com/126752734/227423489-6017a985-40dc-4345-90ea-b93279224177.mp4
+
+
 
 # GUI till now
 
