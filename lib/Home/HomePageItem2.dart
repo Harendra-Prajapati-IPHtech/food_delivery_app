@@ -13,9 +13,7 @@ class HomePaheItems2 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 150,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -34,9 +32,7 @@ class HomePaheItems2 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -55,9 +51,7 @@ class HomePaheItems2 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -82,9 +76,7 @@ class HomePaheItems2 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -103,9 +95,7 @@ class HomePaheItems2 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -124,9 +114,7 @@ class HomePaheItems2 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -151,9 +139,7 @@ class HomePaheItems2 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -172,9 +158,7 @@ class HomePaheItems2 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -193,9 +177,7 @@ class HomePaheItems2 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,

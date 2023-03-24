@@ -13,9 +13,7 @@ class HomePageItems1 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 150,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -34,9 +32,7 @@ class HomePageItems1 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -55,9 +51,7 @@ class HomePageItems1 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -78,82 +72,82 @@ class HomePageItems1 extends StatelessWidget {
             ),
           ],
         ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            SizedBox(
-              height: 200,
-              width: 140,
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza6.jpeg'),
-                          fit: BoxFit.cover),
+        Expanded(
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Expanded(
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const Burger()));
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        image: const DecorationImage(
+                            image: AssetImage('assets/images/pizza6.jpeg'),
+                            fit: BoxFit.cover),
+                      ),
                     ),
                   ),
                 ),
               ),
-            ),
-            SizedBox(
-              height: 200,
-              width: 140,
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza7.jpeg'),
-                          fit: BoxFit.cover),
+              Expanded(
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const Burger()));
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        image: const DecorationImage(
+                            image: AssetImage('assets/images/pizza7.jpeg'),
+                            fit: BoxFit.cover),
+                      ),
                     ),
                   ),
                 ),
               ),
-            ),
-            SizedBox(
-              height: 200,
-              width: 140,
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza8.jpeg'),
-                          fit: BoxFit.cover),
+              Expanded(
+                child: InkWell(
+                  onTap: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const Burger()));
+                  },
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        image: const DecorationImage(
+                            image: AssetImage('assets/images/pizza8.jpeg'),
+                            fit: BoxFit.cover),
+                      ),
                     ),
                   ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -172,9 +166,7 @@ class HomePageItems1 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -193,9 +185,7 @@ class HomePageItems1 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 200,
-              width: 140,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,

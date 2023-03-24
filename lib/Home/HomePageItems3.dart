@@ -13,9 +13,7 @@ class HomePageItems3 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -34,9 +32,7 @@ class HomePageItems3 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -55,9 +51,7 @@ class HomePageItems3 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -76,9 +70,7 @@ class HomePageItems3 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -103,9 +95,7 @@ class HomePageItems3 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -124,9 +114,7 @@ class HomePageItems3 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -145,9 +133,7 @@ class HomePageItems3 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -166,9 +152,7 @@ class HomePageItems3 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -193,9 +177,7 @@ class HomePageItems3 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -214,9 +196,7 @@ class HomePageItems3 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -235,9 +215,7 @@ class HomePageItems3 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -256,9 +234,7 @@ class HomePageItems3 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 150,
-              width: 100,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,

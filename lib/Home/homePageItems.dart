@@ -14,9 +14,7 @@ class HomeItems1 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            SizedBox(
-              height: 250,
-              width: 200,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(
@@ -66,9 +64,7 @@ class HomeItems1 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 250,
-              width: 200,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(
@@ -122,9 +118,7 @@ class HomeItems1 extends StatelessWidget {
         ),
         Row(
           children: [
-            SizedBox(
-              height: 250,
-              width: 200,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -169,9 +163,7 @@ class HomeItems1 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(
-              height: 250,
-              width: 200,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -220,9 +212,7 @@ class HomeItems1 extends StatelessWidget {
         ),
         Row(
           children: [
-            SizedBox(
-              height: 250,
-              width: 200,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,
@@ -267,9 +257,7 @@ class HomeItems1 extends StatelessWidget {
                 ),
               ),
             ),
-            Container(
-              height: 250,
-              width: 200,
+            Expanded(
               child: InkWell(
                 onTap: () {
                   Navigator.push(context,

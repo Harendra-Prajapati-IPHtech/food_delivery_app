@@ -5,7 +5,7 @@ import 'package:food_delivery_app/delivery.dart';
 
 import 'package:food_delivery_app/signUp/sign_up.dart';
 
-import '../dining/dining.dart'; 
+import '../dining/dining.dart';
 
 class HomePageView extends StatefulWidget {
   const HomePageView({super.key});

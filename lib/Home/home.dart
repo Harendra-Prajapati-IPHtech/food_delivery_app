@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/Home/HomePageItems3.dart';
+import 'package:food_delivery_app/Home/menuBar.dart';
 import 'package:food_delivery_app/Home/search.dart';
+import 'package:food_delivery_app/restaurent/restaurent1.dart';
+import 'package:food_delivery_app/restaurent/restaurent2.dart';
+import 'package:food_delivery_app/restaurent/restaurent3.dart';
+import 'package:food_delivery_app/restaurent/restaurent4.dart';
 import '../Home/HomePageItems1.dart';
 import '../Home/homePageItems.dart';
 import '../burger/burgeritemviev.dart';
@@ -26,9 +31,14 @@ class _DiningPagePageState extends State<Home> {
       child: Column(
         children: const [
           SizedBox(
-            height: 100,
+            height: 70,
             width: double.infinity,
             child: Search(),
+          ),
+          SizedBox(
+            height: 50,
+            width: double.infinity,
+            child: MenuBarHome(),
           ),
           SizedBox(
             height: 250,
@@ -36,13 +46,13 @@ class _DiningPagePageState extends State<Home> {
             child: HomeItems1(),
           ),
           Padding(
-            padding: EdgeInsets.all(8.0),
+            padding: EdgeInsets.all(30.0),
             child: Text(
-              'EXPLORE',
+              '_________EXPLORE_________',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
-                  color: Color.fromARGB(255, 81, 81, 81)),
+                  color: Color.fromARGB(255, 126, 126, 126)),
             ),
           ),
           SizedBox(
@@ -51,13 +61,13 @@ class _DiningPagePageState extends State<Home> {
             child: HomePageItems1(),
           ),
           Padding(
-            padding: EdgeInsets.all(8.0),
+            padding: EdgeInsets.all(30.0),
             child: Text(
-              'WHATS ON YOUR MIND?',
+              '_________WHATS ON YOUR MIND?_________',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
-                  color: Color.fromARGB(255, 81, 81, 81)),
+                  color: Color.fromARGB(255, 126, 126, 126)),
             ),
           ),
           SizedBox(
@@ -69,6 +79,16 @@ class _DiningPagePageState extends State<Home> {
             height: 100,
             width: double.infinity,
             child: HomePageItems3(),
+          ),
+          Padding(
+            padding: EdgeInsets.all(30.0),
+            child: Text(
+              '_________ IN THE SPOTLIGHT _________',
+              style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color.fromARGB(255, 126, 126, 126)),
+            ),
           ),
           SizedBox(
             height: 200,
@@ -89,6 +109,44 @@ class _DiningPagePageState extends State<Home> {
             height: 200,
             width: double.infinity,
             child: PizzaItems1(),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Text(
+              '_________OUR RESTAURENTS_________',
+              style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color.fromARGB(255, 126, 126, 126)),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Text(
+              'FEATURES',
+              style: TextStyle(
+                  fontSize: 15, color: Color.fromARGB(255, 126, 126, 126)),
+            ),
+          ),
+          SizedBox(
+            height: 200,
+            width: double.infinity,
+            child: Restaurent1(),
+          ),
+          SizedBox(
+            height: 200,
+            width: double.infinity,
+            child: Restaurent2(),
+          ),
+          SizedBox(
+            height: 200,
+            width: double.infinity,
+            child: Restaurent3(),
+          ),
+          SizedBox(
+            height: 200,
+            width: double.infinity,
+            child: Restaurent4(),
           ),
         ],
       ),

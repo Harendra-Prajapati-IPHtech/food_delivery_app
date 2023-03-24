@@ -1,20 +1,14 @@
 import 'package:flutter/material.dart';
 
-import 'Burger.dart';
+import '../burger/Burger.dart';
 
-class BurgerItem1 extends StatefulWidget {
-  const BurgerItem1({super.key});
+class Restaurent4 extends StatelessWidget {
+  const Restaurent4({super.key});
 
-  @override
-  State<BurgerItem1> createState() => _BurgerItem1State();
-}
-
-class _BurgerItem1State extends State<BurgerItem1> {
-  final PageController controller = PageController();
   @override
   Widget build(BuildContext context) {
-    return 
-    PageView(
+    final PageController controller = PageController();
+    return PageView(
       controller: controller,
       children: <Widget>[
         InkWell(
@@ -29,7 +23,7 @@ class _BurgerItem1State extends State<BurgerItem1> {
               width: double.infinity,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                image: DecorationImage(
+                image: const DecorationImage(
                     image: AssetImage('assets/images/homefood4.jpeg'),
                     fit: BoxFit.cover),
               ),
@@ -41,7 +35,7 @@ class _BurgerItem1State extends State<BurgerItem1> {
                       child: Column(
                         children: const [
                           Text(
-                            'Burgers',
+                            'BREAK-POINT',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
@@ -113,7 +107,7 @@ class _BurgerItem1State extends State<BurgerItem1> {
                       child: Column(
                         children: const [
                           Text(
-                            'Burgers',
+                            'BREAK-POINT',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
@@ -185,7 +179,7 @@ class _BurgerItem1State extends State<BurgerItem1> {
                       child: Column(
                         children: const [
                           Text(
-                            'Burgers',
+                            'BREAK-POINT',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,
@@ -257,7 +251,7 @@ class _BurgerItem1State extends State<BurgerItem1> {
                       child: Column(
                         children: const [
                           Text(
-                            'Burgers',
+                            'BREAK-POINT',
                             style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 20,

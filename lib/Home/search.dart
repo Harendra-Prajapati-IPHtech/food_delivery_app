@@ -14,15 +14,21 @@ class Search extends StatelessWidget {
             right: 25,
           ),
           child: Form(
-            child: Column(
-              children: <Widget>[
-                TextFormField(
-                  decoration: const InputDecoration(
-                      border: OutlineInputBorder(borderSide: BorderSide.none),
-                      hintText: 'Search here',
-                      labelText: 'items'),
+            child: SizedBox(
+              height: 50,
+              width: double.infinity,
+              child: TextFormField(
+                decoration: const InputDecoration(
+                  fillColor: Colors.amber,
+                  border: OutlineInputBorder(),
+                  prefixIcon: Icon(
+                    Icons.search,
+                    color: Colors.black45,
+                  ),
+                  suffixIcon: Icon(Icons.mic),
+                  hintText: 'Enter Items',
                 ),
-              ],
+              ),
             ),
           ),
         ),
