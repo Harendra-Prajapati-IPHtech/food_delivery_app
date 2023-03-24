@@ -8,11 +8,7 @@ class Search extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.only(
-            top: 15.0,
-            left: 25,
-            right: 25,
-          ),
+          padding: const EdgeInsets.only(left: 10, right: 10),
           child: Form(
             child: SizedBox(
               height: 40,
@@ -30,7 +26,7 @@ class Search extends StatelessWidget {
                     Icons.mic,
                     color: Colors.red,
                   ),
-                  hintText: 'Search Items',
+                  hintText: 'Restaurent Name or Dish...',
                 ),
               ),
             ),

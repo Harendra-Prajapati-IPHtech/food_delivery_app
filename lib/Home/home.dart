@@ -38,7 +38,7 @@ class _DiningPagePageState extends State<Home> {
             child: HomeTopBar(),
           ),
           SizedBox(
-            height: 70,
+            height: 50,
             width: double.infinity,
             child: Search(),
           ),

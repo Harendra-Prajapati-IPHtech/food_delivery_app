@@ -21,7 +21,7 @@ class _MenuBarHomeState extends State<MenuBarHome> {
             children: [
               Expanded(
                 child: Container(
-                  height: 35,
+                  height: 30,
                   decoration: BoxDecoration(
                     color: const Color.fromARGB(255, 235, 235, 235),
                     borderRadius: BorderRadius.circular(10),
