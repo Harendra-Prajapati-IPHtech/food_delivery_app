@@ -36,52 +36,37 @@ class HomeItems1 extends StatelessWidget {
                           fit: BoxFit.cover),
                     ),
                     child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding: const EdgeInsets.only(
-                              top: 50.0,
-                            ),
-                            child: Column(
-                              children: [
-                                Expanded(
-                                  child: Container(
-                                    width: 170,
-                                    height: 30,
-                                    color: const Color.fromARGB(95, 0, 0, 0),
-                                    margin: const EdgeInsets.all(10),
-                                    padding: const EdgeInsets.all(10),
-                                    child: Expanded(
-                                      child: Column(
-                                        children: const [
-                                          Padding(
-                                            padding: EdgeInsets.only(top: 70.0),
-                                            child: Text(
-                                              "Special",
-                                              style: TextStyle(
-                                                  fontSize: 40,
-                                                  color: Colors.white,
-                                                  fontWeight: FontWeight.bold),
-                                              textAlign: TextAlign.center,
-                                            ),
-                                          ),
-                                          Text(
-                                            "Discounts",
-                                            style: TextStyle(
-                                                fontSize: 20,
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.bold),
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ),
-                                )
-                              ],
-                            ),
+                      child: Container(
+                        width: 170,
+                        height: 30,
+                        color: const Color.fromARGB(183, 0, 0, 0),
+                        margin: const EdgeInsets.only(
+                            left: 10, right: 10, top: 80, bottom: 10),
+                        padding: const EdgeInsets.all(10),
+                        child: Expanded(
+                          child: Column(
+                            children: const [
+                              Expanded(
+                                child: Text(
+                                  "Special",
+                                  style: TextStyle(
+                                      fontSize: 40,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ),
+                              Text(
+                                " Festival Discounts on veg",
+                                style: TextStyle(
+                                    fontSize: 20,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
+                                textAlign: TextAlign.center,
+                              ),
+                            ],
                           ),
-                        ],
+                        ),
                       ),
                     ),
                   ),
