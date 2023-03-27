@@ -36,6 +36,7 @@ class _LoginOtpState extends State<LoginOtp> {
                 child: Padding(
                     padding: const EdgeInsets.all(60.0),
                     child: TextFormField(
+                      obscureText: true,
                       keyboardType: const TextInputType.numberWithOptions(),
                       decoration: const InputDecoration(
                           border: OutlineInputBorder(),
