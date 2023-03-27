@@ -6,7 +6,7 @@ class HomePaheItems2 extends StatelessWidget {
   const HomePaheItems2({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {  
     return PageView(
       children: [
         Row(
