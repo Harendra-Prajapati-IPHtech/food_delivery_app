@@ -19,14 +19,42 @@ class HomePageItems1 extends StatelessWidget {
                   Navigator.push(context,
                       MaterialPageRoute(builder: (context) => const Burger()));
                 },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
+                child: Container(
+                  height: 250,
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    color: const Color.fromARGB(255, 243, 242, 239),
+                  ),
                   child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(20),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza1.jpeg'),
-                          fit: BoxFit.cover),
+                    height: 100,
+                    margin: const EdgeInsets.all(10),
+                    child: Expanded(
+                      child: Column(
+                        children: [
+                          Expanded(
+                            child: Image.asset(
+                              'assets/images/offers.gif',
+                            ),
+                          ),
+                          const Expanded(
+                            child: ListTile(
+                              title: Expanded(
+                                  child: Text(
+                                'Get',
+                                textAlign: TextAlign.center,
+                              )),
+                              subtitle: Expanded(
+                                  child: Text(
+                                'Offers',
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                    color: Color.fromARGB(255, 7, 26, 240)),
+                              )),
+                            ),
+                          )
+                        ],
+                      ),
                     ),
                   ),
                 ),

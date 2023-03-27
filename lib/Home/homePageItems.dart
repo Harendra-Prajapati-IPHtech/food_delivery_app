@@ -39,9 +39,11 @@ class HomeItems1 extends StatelessWidget {
                       child: Container(
                         width: 170,
                         height: 30,
-                        color: const Color.fromARGB(183, 0, 0, 0),
                         margin: const EdgeInsets.only(
                             left: 10, right: 10, top: 80, bottom: 10),
+                        decoration: BoxDecoration(
+                            color: const Color.fromARGB(162, 0, 0, 0),
+                            borderRadius: BorderRadius.circular(20)),
                         padding: const EdgeInsets.all(10),
                         child: Expanded(
                           child: Column(
@@ -92,31 +94,38 @@ class HomeItems1 extends StatelessWidget {
                           image: AssetImage('assets/images/homefood1.jpeg'),
                           fit: BoxFit.cover),
                     ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding:
-                                const EdgeInsets.only(top: 130.0, left: 20),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Special',
-                                  style: TextStyle(
-                                      color: Color.fromARGB(255, 244, 6, 6),
-                                      fontSize: 40,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Discounts',
-                                    style: TextStyle(
-                                        color:
-                                            Color.fromARGB(255, 251, 153, 153),
-                                        fontSize: 30,
-                                        fontWeight: FontWeight.bold)),
-                              ],
+                    child: Container(
+                      width: 170,
+                      height: 30,
+                      margin: const EdgeInsets.only(
+                          left: 10, right: 10, top: 80, bottom: 10),
+                      decoration: BoxDecoration(
+                          color: const Color.fromARGB(162, 0, 0, 0),
+                          borderRadius: BorderRadius.circular(20)),
+                      padding: const EdgeInsets.all(10),
+                      child: Expanded(
+                        child: Column(
+                          children: const [
+                            Expanded(
+                              child: Text(
+                                "Special",
+                                style: TextStyle(
+                                    fontSize: 40,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
+                                textAlign: TextAlign.center,
+                              ),
                             ),
-                          ),
-                        ],
+                            Text(
+                              "Discounts on snacks",
+                              style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -144,31 +153,38 @@ class HomeItems1 extends StatelessWidget {
                           image: AssetImage('assets/images/burger6.jpeg'),
                           fit: BoxFit.cover),
                     ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding:
-                                const EdgeInsets.only(top: 130.0, left: 20),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Special',
-                                  style: TextStyle(
-                                      color: Color.fromARGB(255, 255, 255, 255),
-                                      fontSize: 40,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Discounts',
-                                    style: TextStyle(
-                                        color:
-                                            Color.fromARGB(255, 255, 255, 255),
-                                        fontSize: 30,
-                                        fontWeight: FontWeight.bold)),
-                              ],
+                    child: Container(
+                      width: 170,
+                      height: 30,
+                      margin: const EdgeInsets.only(
+                          left: 10, right: 10, top: 100, bottom: 10),
+                      decoration: BoxDecoration(
+                          color: const Color.fromARGB(162, 0, 0, 0),
+                          borderRadius: BorderRadius.circular(20)),
+                      padding: const EdgeInsets.all(10),
+                      child: Expanded(
+                        child: Column(
+                          children: const [
+                            Expanded(
+                              child: Text(
+                                "Special",
+                                style: TextStyle(
+                                    fontSize: 40,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
+                                textAlign: TextAlign.center,
+                              ),
                             ),
-                          ),
-                        ],
+                            Text(
+                              "Discounts on snacks",
+                              style: TextStyle(
+                                  fontSize: 20,
+                                  color: Color.fromARGB(255, 244, 11, 11),
+                                  fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -192,31 +208,38 @@ class HomeItems1 extends StatelessWidget {
                           image: AssetImage('assets/images/burger10.jpeg'),
                           fit: BoxFit.cover),
                     ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding:
-                                const EdgeInsets.only(top: 130.0, left: 20),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Special',
-                                  style: TextStyle(
-                                      color: Color.fromARGB(255, 255, 255, 255),
-                                      fontSize: 40,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Discounts',
-                                    style: TextStyle(
-                                        color:
-                                            Color.fromARGB(255, 255, 255, 255),
-                                        fontSize: 30,
-                                        fontWeight: FontWeight.bold)),
-                              ],
+                    child: Container(
+                      width: 170,
+                      height: 30,
+                      margin: const EdgeInsets.only(
+                          left: 10, right: 10, top: 100, bottom: 10),
+                      decoration: BoxDecoration(
+                          color: const Color.fromARGB(162, 0, 0, 0),
+                          borderRadius: BorderRadius.circular(20)),
+                      padding: const EdgeInsets.all(10),
+                      child: Expanded(
+                        child: Column(
+                          children: const [
+                            Expanded(
+                              child: Text(
+                                "Special",
+                                style: TextStyle(
+                                    fontSize: 40,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
+                                textAlign: TextAlign.center,
+                              ),
                             ),
-                          ),
-                        ],
+                            Text(
+                              "Discounts on snacks",
+                              style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -244,31 +267,38 @@ class HomeItems1 extends StatelessWidget {
                           image: AssetImage('assets/images/burger9.jpeg'),
                           fit: BoxFit.cover),
                     ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding:
-                                const EdgeInsets.only(top: 130.0, left: 20),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Special',
-                                  style: TextStyle(
-                                      color: Color.fromARGB(255, 255, 255, 255),
-                                      fontSize: 40,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Discounts',
-                                    style: TextStyle(
-                                        color:
-                                            Color.fromARGB(255, 255, 255, 255),
-                                        fontSize: 30,
-                                        fontWeight: FontWeight.bold)),
-                              ],
+                    child: Container(
+                      width: 170,
+                      height: 30,
+                      margin: const EdgeInsets.only(
+                          left: 10, right: 10, top: 100, bottom: 10),
+                      decoration: BoxDecoration(
+                          color: const Color.fromARGB(162, 0, 0, 0),
+                          borderRadius: BorderRadius.circular(20)),
+                      padding: const EdgeInsets.all(10),
+                      child: Expanded(
+                        child: Column(
+                          children: const [
+                            Expanded(
+                              child: Text(
+                                "Special",
+                                style: TextStyle(
+                                    fontSize: 40,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
+                                textAlign: TextAlign.center,
+                              ),
                             ),
-                          ),
-                        ],
+                            Text(
+                              "Discounts on snacks",
+                              style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
@@ -292,31 +322,38 @@ class HomeItems1 extends StatelessWidget {
                           image: AssetImage('assets/images/burger11.jpeg'),
                           fit: BoxFit.cover),
                     ),
-                    child: Expanded(
-                      child: Row(
-                        children: [
-                          Padding(
-                            padding:
-                                const EdgeInsets.only(top: 130.0, left: 20),
-                            child: Column(
-                              children: const [
-                                Text(
-                                  'Special',
-                                  style: TextStyle(
-                                      color: Color.fromARGB(255, 255, 255, 255),
-                                      fontSize: 40,
-                                      fontWeight: FontWeight.bold),
-                                ),
-                                Text('Discounts',
-                                    style: TextStyle(
-                                        color:
-                                            Color.fromARGB(255, 255, 255, 255),
-                                        fontSize: 30,
-                                        fontWeight: FontWeight.bold)),
-                              ],
+                    child: Container(
+                      width: 170,
+                      height: 30,
+                      margin: const EdgeInsets.only(
+                          left: 10, right: 10, top: 100, bottom: 10),
+                      decoration: BoxDecoration(
+                          color: const Color.fromARGB(162, 0, 0, 0),
+                          borderRadius: BorderRadius.circular(20)),
+                      padding: const EdgeInsets.all(10),
+                      child: Expanded(
+                        child: Column(
+                          children: const [
+                            Expanded(
+                              child: Text(
+                                "Special",
+                                style: TextStyle(
+                                    fontSize: 40,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold),
+                                textAlign: TextAlign.center,
+                              ),
                             ),
-                          ),
-                        ],
+                            Text(
+                              "Discounts on snacks",
+                              style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold),
+                              textAlign: TextAlign.center,
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   ),
