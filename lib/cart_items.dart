@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'burger/Burger.dart';
 
 class CartItem extends StatefulWidget {
   const CartItem({super.key});
@@ -32,7 +31,7 @@ class _CartItemState extends State<CartItem> {
             )
           ],
         ),
-        body: Center(child: Text('hello')),
+        body: const Center(child: Text('hello')),
       ),
     );
   }

@@ -11,19 +11,18 @@ class Search extends StatelessWidget {
           padding: const EdgeInsets.only(left: 10, right: 10),
           child: Form(
             child: SizedBox(
-              height: 40,
+              height: 50,
               width: double.infinity,
               child: TextFormField(
                 cursorHeight: 20,
                 decoration: const InputDecoration(
-                  fillColor: Colors.amber,
                   border: OutlineInputBorder(),
                   prefixIcon: Icon(
                     Icons.search,
-                    color: Colors.black45,
+                    color: Colors.red,
                   ),
                   suffixIcon: Icon(
-                    Icons.mic,
+                    Icons.mic_outlined,
                     color: Colors.red,
                   ),
                   hintText: 'Restaurent Name or Dish...',

@@ -31,7 +31,7 @@ class HomeItems1 extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                       image: const DecorationImage(
                           image: AssetImage(
-                            'assets/images/veg3.jpeg',
+                            'assets/images/veg1.jpeg',
                           ),
                           fit: BoxFit.cover),
                     ),
@@ -42,7 +42,7 @@ class HomeItems1 extends StatelessWidget {
                         margin: const EdgeInsets.only(
                             left: 10, right: 10, top: 80, bottom: 10),
                         decoration: BoxDecoration(
-                            color: const Color.fromARGB(162, 0, 0, 0),
+                            color: const Color.fromARGB(94, 0, 0, 0),
                             borderRadius: BorderRadius.circular(20)),
                         padding: const EdgeInsets.all(10),
                         child: Expanded(
@@ -52,7 +52,7 @@ class HomeItems1 extends StatelessWidget {
                                 child: Text(
                                   "Special",
                                   style: TextStyle(
-                                      fontSize: 40,
+                                      fontSize: 30,
                                       color: Colors.white,
                                       fontWeight: FontWeight.bold),
                                   textAlign: TextAlign.center,
@@ -61,9 +61,9 @@ class HomeItems1 extends StatelessWidget {
                               Text(
                                 " Festival Discounts on veg",
                                 style: TextStyle(
-                                    fontSize: 20,
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold),
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                ),
                                 textAlign: TextAlign.center,
                               ),
                             ],
@@ -91,7 +91,7 @@ class HomeItems1 extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/homefood1.jpeg'),
+                          image: AssetImage('assets/images/burger4.jpeg'),
                           fit: BoxFit.cover),
                     ),
                     child: Container(
@@ -100,7 +100,7 @@ class HomeItems1 extends StatelessWidget {
                       margin: const EdgeInsets.only(
                           left: 10, right: 10, top: 80, bottom: 10),
                       decoration: BoxDecoration(
-                          color: const Color.fromARGB(162, 0, 0, 0),
+                          color: const Color.fromARGB(94, 0, 0, 0),
                           borderRadius: BorderRadius.circular(20)),
                       padding: const EdgeInsets.all(10),
                       child: Expanded(
@@ -110,7 +110,7 @@ class HomeItems1 extends StatelessWidget {
                               child: Text(
                                 "Special",
                                 style: TextStyle(
-                                    fontSize: 40,
+                                    fontSize: 30,
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold),
                                 textAlign: TextAlign.center,
@@ -119,9 +119,9 @@ class HomeItems1 extends StatelessWidget {
                             Text(
                               "Discounts on snacks",
                               style: TextStyle(
-                                  fontSize: 20,
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold),
+                                fontSize: 20,
+                                color: Colors.white,
+                              ),
                               textAlign: TextAlign.center,
                             ),
                           ],
@@ -150,7 +150,7 @@ class HomeItems1 extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/burger6.jpeg'),
+                          image: AssetImage('assets/images/burger1.jpeg'),
                           fit: BoxFit.cover),
                     ),
                     child: Container(
@@ -159,7 +159,7 @@ class HomeItems1 extends StatelessWidget {
                       margin: const EdgeInsets.only(
                           left: 10, right: 10, top: 100, bottom: 10),
                       decoration: BoxDecoration(
-                          color: const Color.fromARGB(162, 0, 0, 0),
+                          color: const Color.fromARGB(94, 0, 0, 0),
                           borderRadius: BorderRadius.circular(20)),
                       padding: const EdgeInsets.all(10),
                       child: Expanded(
@@ -205,7 +205,7 @@ class HomeItems1 extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/burger10.jpeg'),
+                          image: AssetImage('assets/images/pizza1.jpeg'),
                           fit: BoxFit.cover),
                     ),
                     child: Container(
@@ -214,7 +214,7 @@ class HomeItems1 extends StatelessWidget {
                       margin: const EdgeInsets.only(
                           left: 10, right: 10, top: 100, bottom: 10),
                       decoration: BoxDecoration(
-                          color: const Color.fromARGB(162, 0, 0, 0),
+                          color: const Color.fromARGB(94, 0, 0, 0),
                           borderRadius: BorderRadius.circular(20)),
                       padding: const EdgeInsets.all(10),
                       child: Expanded(
@@ -264,7 +264,7 @@ class HomeItems1 extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/burger9.jpeg'),
+                          image: AssetImage('assets/images/veg6.jpeg'),
                           fit: BoxFit.cover),
                     ),
                     child: Container(
@@ -273,7 +273,7 @@ class HomeItems1 extends StatelessWidget {
                       margin: const EdgeInsets.only(
                           left: 10, right: 10, top: 100, bottom: 10),
                       decoration: BoxDecoration(
-                          color: const Color.fromARGB(162, 0, 0, 0),
+                          color: const Color.fromARGB(94, 0, 0, 0),
                           borderRadius: BorderRadius.circular(20)),
                       padding: const EdgeInsets.all(10),
                       child: Expanded(
@@ -319,7 +319,7 @@ class HomeItems1 extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
                       image: const DecorationImage(
-                          image: AssetImage('assets/images/burger11.jpeg'),
+                          image: AssetImage('assets/images/nonveg2.jpeg'),
                           fit: BoxFit.cover),
                     ),
                     child: Container(
@@ -328,7 +328,7 @@ class HomeItems1 extends StatelessWidget {
                       margin: const EdgeInsets.only(
                           left: 10, right: 10, top: 100, bottom: 10),
                       decoration: BoxDecoration(
-                          color: const Color.fromARGB(162, 0, 0, 0),
+                          color: const Color.fromARGB(94, 0, 0, 0),
                           borderRadius: BorderRadius.circular(20)),
                       padding: const EdgeInsets.all(10),
                       child: Expanded(

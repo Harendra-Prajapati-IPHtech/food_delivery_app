@@ -35,7 +35,7 @@ class HomePaheItems2 extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Text(
+                  const Text(
                     'data',
                     style: TextStyle(fontSize: 50),
                   ),

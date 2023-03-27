@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'cake.dart';
+import '../veg/veg.dart';
 
 class CakeItems1 extends StatefulWidget {
   const CakeItems1({super.key});
@@ -12,75 +12,110 @@ class _CAkeItems1State extends State<CakeItems1> {
   @override
   Widget build(BuildContext context) {
     return PageView(
-      children: <Widget>[
+      children: [
         InkWell(
           onTap: () {
             Navigator.push(
-                context, MaterialPageRoute(builder: (context) => const Cake()));
+                context, MaterialPageRoute(builder: (context) => const Veg()));
           },
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              height: 200,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                image: DecorationImage(
-                    image: AssetImage('assets/images/cake.jpeg'),
-                    fit: BoxFit.cover),
-              ),
-              child: Expanded(
-                child: Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
+          child: Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  image: const DecorationImage(
+                      image: AssetImage('assets/images/cake10.jpeg'),
+                      fit: BoxFit.cover),
+                ),
+                child: Expanded(
+                    child: Container(
+                  decoration: BoxDecoration(
+                      color: const Color.fromARGB(98, 0, 0, 0),
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Expanded(
+                    child: Expanded(
                       child: Column(
-                        children: const [
-                          Text(
-                            'Cakes',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: const [
+                              Padding(
+                                padding: EdgeInsets.all(8.0),
+                                child: Icon(
+                                  Icons.favorite_outline,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
                           ),
-                          Text('Up to 60% Discount ',
-                              style: TextStyle(
-                                  color: Colors.yellow,
-                                  fontWeight: FontWeight.bold)),
+                          Expanded(
+                            child: Row(
+                              children: const [
+                                Padding(
+                                  padding: EdgeInsets.only(left: 8.0, top: 50),
+                                  child: Expanded(
+                                    child: Text(
+                                      '20% off up to Rs.50',
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Expanded(
+                            child: Row(
+                              children: [
+                                const Expanded(
+                                  child: Text(
+                                    'Binze Cakes',
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 25,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                                Container(
+                                  height: 30,
+                                  decoration: BoxDecoration(
+                                    color:
+                                        const Color.fromARGB(255, 32, 123, 35),
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Expanded(
+                                      child: Row(
+                                        children: const [
+                                          Text(
+                                            '3.9',
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 13),
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.white,
+                                            size: 15,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(top: 130.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: const [
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star_half,
-                            color: Colors.red,
-                          ),
-                        ],
-                      ),
-                    )
-                  ],
-                ),
+                  ),
+                )),
               ),
             ),
           ),
@@ -88,71 +123,106 @@ class _CAkeItems1State extends State<CakeItems1> {
         InkWell(
           onTap: () {
             Navigator.push(
-                context, MaterialPageRoute(builder: (context) => const Cake()));
+                context, MaterialPageRoute(builder: (context) => const Veg()));
           },
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              height: 200,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                image: DecorationImage(
-                    image: AssetImage('assets/images/cake1.jpeg'),
-                    fit: BoxFit.cover),
-              ),
-              child: Expanded(
-                child: Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
+          child: Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  image: const DecorationImage(
+                      image: AssetImage('assets/images/cake1.jpeg'),
+                      fit: BoxFit.cover),
+                ),
+                child: Expanded(
+                    child: Container(
+                  decoration: BoxDecoration(
+                      color: const Color.fromARGB(98, 0, 0, 0),
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Expanded(
+                    child: Expanded(
                       child: Column(
-                        children: const [
-                          Text(
-                            'Cakes',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: const [
+                              Padding(
+                                padding: EdgeInsets.all(8.0),
+                                child: Icon(
+                                  Icons.favorite_outline,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
                           ),
-                          Text('Up to 60% Discount ',
-                              style: TextStyle(
-                                  color: Colors.yellow,
-                                  fontWeight: FontWeight.bold)),
+                          Expanded(
+                            child: Row(
+                              children: const [
+                                Padding(
+                                  padding: EdgeInsets.only(left: 8.0, top: 50),
+                                  child: Expanded(
+                                    child: Text(
+                                      '50% off',
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Expanded(
+                            child: Row(
+                              children: [
+                                const Expanded(
+                                  child: Text(
+                                    'Cake Brown Factory',
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 25,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                                Container(
+                                  height: 30,
+                                  decoration: BoxDecoration(
+                                    color:
+                                        const Color.fromARGB(255, 32, 123, 35),
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Expanded(
+                                      child: Row(
+                                        children: const [
+                                          Text(
+                                            '4.1',
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 13),
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.white,
+                                            size: 15,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(top: 130.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: const [
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star_half,
-                            color: Colors.red,
-                          ),
-                        ],
-                      ),
-                    )
-                  ],
-                ),
+                  ),
+                )),
               ),
             ),
           ),
@@ -160,71 +230,213 @@ class _CAkeItems1State extends State<CakeItems1> {
         InkWell(
           onTap: () {
             Navigator.push(
-                context, MaterialPageRoute(builder: (context) => const Cake()));
+                context, MaterialPageRoute(builder: (context) => const Veg()));
           },
-          child: Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              height: 200,
-              width: double.infinity,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-                image: DecorationImage(
-                    image: AssetImage('assets/images/cake2.jpeg'),
-                    fit: BoxFit.cover),
-              ),
-              child: Expanded(
-                child: Row(
-                  children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
+          child: Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  image: const DecorationImage(
+                      image: AssetImage('assets/images/cake5.jpeg'),
+                      fit: BoxFit.cover),
+                ),
+                child: Expanded(
+                    child: Container(
+                  decoration: BoxDecoration(
+                      color: const Color.fromARGB(98, 0, 0, 0),
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Expanded(
+                    child: Expanded(
                       child: Column(
-                        children: const [
-                          Text(
-                            'Cakes',
-                            style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 20,
-                                fontWeight: FontWeight.bold),
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: const [
+                              Padding(
+                                padding: EdgeInsets.all(8.0),
+                                child: Icon(
+                                  Icons.favorite_outline,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
                           ),
-                          Text('Up to 60% Discount ',
-                              style: TextStyle(
-                                  color: Colors.yellow,
-                                  fontWeight: FontWeight.bold)),
+                          Expanded(
+                            child: Row(
+                              children: const [
+                                Padding(
+                                  padding: EdgeInsets.only(left: 8.0, top: 50),
+                                  child: Expanded(
+                                    child: Text(
+                                      '20% off up to Rs.50',
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Expanded(
+                            child: Row(
+                              children: [
+                                const Expanded(
+                                  child: Text(
+                                    'Cakes Brand',
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 25,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                                Container(
+                                  height: 30,
+                                  decoration: BoxDecoration(
+                                    color:
+                                        const Color.fromARGB(255, 32, 123, 35),
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Expanded(
+                                      child: Row(
+                                        children: const [
+                                          Text(
+                                            '4.4',
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 13),
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.white,
+                                            size: 15,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     ),
-                    Padding(
-                      padding: const EdgeInsets.only(top: 130.0),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.end,
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: const [
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
+                  ),
+                )),
+              ),
+            ),
+          ),
+        ),
+        InkWell(
+          onTap: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => const Veg()));
+          },
+          child: Expanded(
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Container(
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  image: const DecorationImage(
+                      image: AssetImage('assets/images/cake7.jpeg'),
+                      fit: BoxFit.cover),
+                ),
+                child: Expanded(
+                    child: Container(
+                  decoration: BoxDecoration(
+                      color: const Color.fromARGB(98, 0, 0, 0),
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Expanded(
+                    child: Expanded(
+                      child: Column(
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: const [
+                              Padding(
+                                padding: EdgeInsets.all(8.0),
+                                child: Icon(
+                                  Icons.favorite_outline,
+                                  color: Colors.white,
+                                ),
+                              ),
+                            ],
                           ),
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
+                          Expanded(
+                            child: Row(
+                              children: const [
+                                Padding(
+                                  padding: EdgeInsets.only(left: 8.0, top: 50),
+                                  child: Expanded(
+                                    child: Text(
+                                      '50% ',
+                                      style: TextStyle(
+                                          color: Colors.white,
+                                          fontSize: 20,
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star,
-                            color: Colors.red,
-                          ),
-                          Icon(
-                            Icons.star_half,
-                            color: Colors.red,
+                          Expanded(
+                            child: Row(
+                              children: [
+                                const Expanded(
+                                  child: Text(
+                                    'Cakes Devine',
+                                    style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 25,
+                                        fontWeight: FontWeight.bold),
+                                  ),
+                                ),
+                                Container(
+                                  height: 30,
+                                  decoration: BoxDecoration(
+                                    color:
+                                        const Color.fromARGB(255, 32, 123, 35),
+                                    borderRadius: BorderRadius.circular(10),
+                                  ),
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Expanded(
+                                      child: Row(
+                                        children: const [
+                                          Text(
+                                            '4.0',
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 13),
+                                          ),
+                                          Icon(
+                                            Icons.star,
+                                            color: Colors.white,
+                                            size: 15,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                )
+                              ],
+                            ),
                           ),
                         ],
                       ),
-                    )
-                  ],
-                ),
+                    ),
+                  ),
+                )),
               ),
             ),
           ),

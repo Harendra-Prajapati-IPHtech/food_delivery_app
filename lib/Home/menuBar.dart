@@ -22,13 +22,14 @@ class _MenuBarHomeState extends State<MenuBarHome> {
               Expanded(
                 child: Container(
                   height: 30,
+                  width: double.infinity,
                   decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 235, 235, 235),
+                    color: const Color.fromARGB(255, 246, 245, 243),
                     borderRadius: BorderRadius.circular(10),
                   ),
                   child: Row(
                     children: [
-                      const Icon(Icons.filter_list),
+                      const Expanded(child: Icon(Icons.filter_list)),
                       TextButton(
                         onPressed: () {
                           Navigator.push(context,
@@ -39,68 +40,76 @@ class _MenuBarHomeState extends State<MenuBarHome> {
                           style: TextStyle(
                             color: Color.fromARGB(255, 67, 67, 67),
                           ),
-                          textAlign: TextAlign.center,
                         ),
                       ),
-                      const Icon(Icons.arrow_drop_down)
+                      const Expanded(child: Icon(Icons.arrow_drop_down))
                     ],
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Veg()));
-                  },
-                  style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 235, 235, 235),
-                      shadowColor: const Color(50)),
-                  child: const Text(
-                    'Likes',
-                    style: TextStyle(
-                      color: Color.fromARGB(255, 67, 67, 67),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => Veg()));
+                    },
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor:
+                            const Color.fromARGB(255, 246, 245, 243),
+                        shadowColor: const Color(50)),
+                    child: const Text(
+                      'Likes',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 67, 67, 67),
+                      ),
+                      textAlign: TextAlign.center,
                     ),
-                    textAlign: TextAlign.center,
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Veg()));
-                  },
-                  style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 235, 235, 235),
-                      shadowColor: const Color(50)),
-                  child: const Text(
-                    'Nearest',
-                    style: TextStyle(
-                      color: Color.fromARGB(255, 67, 67, 67),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => Veg()));
+                    },
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor:
+                            const Color.fromARGB(255, 246, 245, 243),
+                        shadowColor: const Color(50)),
+                    child: const Text(
+                      'Nearest',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 67, 67, 67),
+                      ),
+                      textAlign: TextAlign.center,
                     ),
-                    textAlign: TextAlign.center,
                   ),
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: ElevatedButton(
-                  onPressed: () {
-                    Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Veg()));
-                  },
-                  style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 235, 235, 235),
-                      shadowColor: const Color(50)),
-                  child: const Text(
-                    'Great Offers',
-                    style: TextStyle(
-                      color: Color.fromARGB(255, 67, 67, 67),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => Veg()));
+                    },
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor:
+                            const Color.fromARGB(255, 246, 245, 243),
+                        shadowColor: const Color(50)),
+                    child: const Text(
+                      'Great Offers',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 67, 67, 67),
+                      ),
+                      textAlign: TextAlign.center,
                     ),
-                    textAlign: TextAlign.center,
                   ),
                 ),
               ),
@@ -122,8 +131,8 @@ class _MenuBarHomeState extends State<MenuBarHome> {
                     },
                     style: ElevatedButton.styleFrom(
                         backgroundColor:
-                            const Color.fromARGB(255, 235, 235, 235),
-                        shadowColor: Color(50)),
+                            const Color.fromARGB(255, 246, 245, 243),
+                        shadowColor: const Color(50)),
                     child: const Text(
                       'Rating',
                       style: TextStyle(
@@ -144,8 +153,8 @@ class _MenuBarHomeState extends State<MenuBarHome> {
                     },
                     style: ElevatedButton.styleFrom(
                         backgroundColor:
-                            const Color.fromARGB(255, 235, 235, 235),
-                        shadowColor: const Color(50)),
+                            const Color.fromARGB(255, 246, 245, 243),
+                        shadowColor: const Color(0x00000032)),
                     child: const Text(
                       'New Arrival',
                       style: TextStyle(
@@ -166,8 +175,8 @@ class _MenuBarHomeState extends State<MenuBarHome> {
                     },
                     style: ElevatedButton.styleFrom(
                         backgroundColor:
-                            const Color.fromARGB(255, 235, 235, 235),
-                        shadowColor: const Color(50)),
+                            const Color.fromARGB(255, 246, 245, 243),
+                        shadowColor: const Color(0x00000032)),
                     child: const Text(
                       'Pure Veg',
                       style: TextStyle(
@@ -188,7 +197,7 @@ class _MenuBarHomeState extends State<MenuBarHome> {
                     },
                     style: ElevatedButton.styleFrom(
                         backgroundColor:
-                            const Color.fromARGB(255, 235, 235, 235),
+                            const Color.fromARGB(255, 246, 245, 243),
                         shadowColor: const Color(50)),
                     child: const Text(
                       'Shakes',
@@ -216,7 +225,7 @@ class _MenuBarHomeState extends State<MenuBarHome> {
                         MaterialPageRoute(builder: (context) => Veg()));
                   },
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 235, 235, 235),
+                      backgroundColor: const Color.fromARGB(255, 246, 245, 243),
                       shadowColor: const Color(50)),
                   child: const Text(
                     'Snacks',
@@ -237,7 +246,7 @@ class _MenuBarHomeState extends State<MenuBarHome> {
                         MaterialPageRoute(builder: (context) => Veg()));
                   },
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 235, 235, 235),
+                      backgroundColor: const Color.fromARGB(255, 246, 245, 243),
                       shadowColor: const Color(50)),
                   child: const Text(
                     'Cakes',
@@ -258,7 +267,7 @@ class _MenuBarHomeState extends State<MenuBarHome> {
                         MaterialPageRoute(builder: (context) => Veg()));
                   },
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 235, 235, 235),
+                      backgroundColor: const Color.fromARGB(255, 246, 245, 243),
                       shadowColor: const Color(50)),
                   child: const Text(
                     'Cuisines',
@@ -279,7 +288,7 @@ class _MenuBarHomeState extends State<MenuBarHome> {
                         MaterialPageRoute(builder: (context) => Veg()));
                   },
                   style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color.fromARGB(255, 235, 235, 235),
+                      backgroundColor: const Color.fromARGB(255, 246, 245, 243),
                       shadowColor: const Color(50)),
                   child: const Text(
                     'More',

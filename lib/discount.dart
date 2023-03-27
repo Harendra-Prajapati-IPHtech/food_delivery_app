@@ -66,32 +66,32 @@ class _DiscountsState extends State<Discounts> {
                   ),
                 ),
               ),
-              Container(
+              const SizedBox(
                 height: 200,
                 width: double.infinity,
                 child: BurgerItem1(),
               ),
-              Container(
+              const SizedBox(
                 height: 200,
                 width: double.infinity,
                 child: PizzaItems1(),
               ),
-              Container(
+              const SizedBox(
                 height: 200,
                 width: double.infinity,
                 child: CakeItems1(),
               ),
-              Container(
+              const SizedBox(
                 height: 200,
                 width: double.infinity,
                 child: SoftDrinkItems1(),
               ),
-              Container(
+              const SizedBox(
                 height: 200,
                 width: double.infinity,
                 child: VegItems1(),
               ),
-              Container(
+              const SizedBox(
                 height: 200,
                 width: double.infinity,
                 child: NonVegItems(),

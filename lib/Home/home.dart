@@ -4,6 +4,7 @@ import 'package:food_delivery_app/Home/HomeTopBar.dart';
 import 'package:food_delivery_app/Home/HomepageItems4.dart';
 import 'package:food_delivery_app/Home/menuBar.dart';
 import 'package:food_delivery_app/Home/search.dart';
+import 'package:food_delivery_app/cake/cakeItems.dart';
 import 'package:food_delivery_app/restaurent/restaurent1.dart';
 import 'package:food_delivery_app/restaurent/restaurent2.dart';
 import 'package:food_delivery_app/restaurent/restaurent3.dart';
@@ -12,7 +13,6 @@ import '../Home/HomePageItems1.dart';
 import '../Home/homePageItems.dart';
 import '../burger/burgeritemviev.dart';
 import '../nonveg/nonVegItems.dart';
-import '../pizza/pizzaItems.dart';
 import '../veg/vegItems.dart';
 
 void main(List<String> args) {
@@ -100,6 +100,11 @@ class _DiningPagePageState extends State<Home> {
           SizedBox(
             height: 200,
             width: double.infinity,
+            child: CakeItems1(),
+          ),
+          SizedBox(
+            height: 200,
+            width: double.infinity,
             child: VegItems1(),
           ),
           SizedBox(
@@ -111,11 +116,6 @@ class _DiningPagePageState extends State<Home> {
             height: 200,
             width: double.infinity,
             child: BurgerItem1(),
-          ),
-          SizedBox(
-            height: 200,
-            width: double.infinity,
-            child: PizzaItems1(),
           ),
           Padding(
             padding: EdgeInsets.all(8.0),

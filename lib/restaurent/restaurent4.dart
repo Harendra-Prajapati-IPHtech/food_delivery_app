@@ -167,7 +167,7 @@ class Restaurent4 extends StatelessWidget {
               width: double.infinity,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                image: DecorationImage(
+                image: const DecorationImage(
                     image: AssetImage('assets/images/homefood3.jpeg'),
                     fit: BoxFit.cover),
               ),
@@ -239,7 +239,7 @@ class Restaurent4 extends StatelessWidget {
               width: double.infinity,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
-                image: DecorationImage(
+                image: const DecorationImage(
                     image: AssetImage('assets/images/homefood4.jpeg'),
                     fit: BoxFit.cover),
               ),

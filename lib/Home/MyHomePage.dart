@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Container(
                 height: 200,
                 width: double.infinity,
-                child: HomeItems1(),
+                child: const HomeItems1(),
               ),
               Padding(
                 padding: const EdgeInsets.only(top: 20),

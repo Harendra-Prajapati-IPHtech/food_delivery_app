@@ -14,161 +14,118 @@ class HomePageItems3 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/sweet3.webp'),
-                          fit: BoxFit.cover),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image: AssetImage('assets/images/jalebi.webp'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  const Text('Jalebi')
+                ],
               ),
             ),
             Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/sweet2.jpeg'),
-                          fit: BoxFit.cover),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image:
+                                    AssetImage('assets/images/kajubarfi.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  const Text('Kaju Barfi')
+                ],
               ),
             ),
             Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/sweet1.jpeg'),
-                          fit: BoxFit.cover),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image:
+                                    AssetImage('assets/images/gulabjamun.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  const Text('Gulab Jamun')
+                ],
               ),
             ),
             Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/siftdrink9.jpeg'),
-                          fit: BoxFit.cover),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image:
+                                    AssetImage('assets/images/softdrink.png'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
                     ),
                   ),
-                ),
-              ),
-            ),
-          ],
-        ),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/laddoo.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                  ),
-                ),
-              ),
-            ),
-            Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/shake.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                  ),
-                ),
-              ),
-            ),
-            Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/pastries.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                  ),
-                ),
-              ),
-            ),
-            Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/pastries1.jpeg'),
-                          fit: BoxFit.cover),
-                    ),
-                  ),
-                ),
+                  const Text('Soft Drinks')
+                ],
               ),
             ),
           ],
@@ -178,79 +135,237 @@ class HomePageItems3 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/pastries2.jpeg'),
-                          fit: BoxFit.cover),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image: AssetImage('assets/images/laddoo.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  const Text('Laddoo')
+                ],
               ),
             ),
             Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/momos.jpeg'),
-                          fit: BoxFit.cover),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image: AssetImage('assets/images/shake.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  const Text('Shake')
+                ],
               ),
             ),
             Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/chokolate.jpeg'),
-                          fit: BoxFit.cover),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image:
+                                    AssetImage('assets/images/pastries.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  const Text('Pastries')
+                ],
               ),
             ),
             Expanded(
-              child: InkWell(
-                onTap: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => const Burger()));
-                },
-                child: Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(40),
-                      image: const DecorationImage(
-                          image: AssetImage('assets/images/pizza3.jpeg'),
-                          fit: BoxFit.cover),
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image:
+                                    AssetImage('assets/images/pastries1.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  const Text('Pastries')
+                ],
+              ),
+            ),
+          ],
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Expanded(
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image:
+                                    AssetImage('assets/images/pastries2.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const Text('Pastie')
+                ],
+              ),
+            ),
+            Expanded(
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image: AssetImage('assets/images/momos.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const Text('Momos')
+                ],
+              ),
+            ),
+            Expanded(
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image:
+                                    AssetImage('assets/images/chokolate.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const Text('Chokolate')
+                ],
+              ),
+            ),
+            Expanded(
+              child: Column(
+                children: [
+                  Expanded(
+                    child: InkWell(
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const Burger()));
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(40),
+                            image: const DecorationImage(
+                                image: AssetImage('assets/images/pizza1.jpeg'),
+                                fit: BoxFit.cover),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const Text('Pizza')
+                ],
               ),
             ),
           ],
