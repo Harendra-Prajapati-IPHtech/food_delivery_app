@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/Home/HomeTopBar.dart';
 import 'package:food_delivery_app/Home/search.dart';
+import '../cake/cakeItems.dart';
 import 'HomeMenuBarList.dart';
 import 'HomeLargeItems.dart';
 import 'HomePageItems3.dart';
@@ -81,21 +82,21 @@ class _DiningPagePageState extends State<Home> {
             width: double.infinity,
             child: HomePageItems4(),
           ),
-          // Padding(
-          //   padding: EdgeInsets.all(30.0),
-          //   child: Text(
-          //     '_________ IN THE SPOTLIGHT _________',
-          //     style: TextStyle(
-          //         fontSize: 15,
-          //         fontWeight: FontWeight.bold,
-          //         color: Color.fromARGB(255, 126, 126, 126)),
-          //   ),
-          // ),
-          // SizedBox(
-          //   height: 200,
-          //   width: double.infinity,
-          //   child: CakeItems1(),
-          // ),
+          Padding(
+            padding: EdgeInsets.all(30.0),
+            child: Text(
+              '_________ IN THE SPOTLIGHT _________',
+              style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color.fromARGB(255, 126, 126, 126)),
+            ),
+          ),
+          SizedBox(
+            height: 200,
+            width: double.infinity,
+            child: CakeItems1(),
+          ),
           // SizedBox(
           //   height: 200,
           //   width: double.infinity,
