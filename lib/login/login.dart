@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/login/loginotp.dart';
 import 'package:food_delivery_app/Home/Homepageview.dart';
@@ -17,8 +16,8 @@ class login extends StatefulWidget {
 class loginState extends State<login> {
   @override
   Widget build(BuildContext context) {
-    return Material(
-      child: Scaffold(
+    return MaterialApp(
+      home: Scaffold(
         body: SingleChildScrollView(
           child: Form(
             child: Column(
