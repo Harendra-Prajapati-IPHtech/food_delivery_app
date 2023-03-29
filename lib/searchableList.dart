@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/Home/Homepageview.dart';
 import 'package:food_delivery_app/login/login.dart';
-import 'Home/MyHomePage.dart';
+
 import 'delivery.dart';
 import 'dining/dining.dart';
 
@@ -183,7 +184,7 @@ class SearchItems extends State<HomePage> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const MyHomePage()));
+                          builder: (context) => const HomePageView()));
                 },
                 child: const Icon(
                   Icons.home,

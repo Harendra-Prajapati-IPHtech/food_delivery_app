@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery_app/Home/HomeTopBar.dart';
 import 'package:food_delivery_app/Home/search.dart';
 import '../cake/cakeItems.dart';
-import 'HomeMenuBarList.dart';
+import '../restaurent/restaurent1.dart';
 import 'HomeLargeItems.dart';
+import 'HomeMenuBarList.dart';
+
 import 'HomePageItems3.dart';
 import 'HomePageMediumItems.dart';
 import 'HomepageItems4.dart';
@@ -93,7 +95,7 @@ class _DiningPagePageState extends State<Home> {
             ),
           ),
           SizedBox(
-            height: 200,
+            height: 220,
             width: double.infinity,
             child: CakeItems1(),
           ),
@@ -112,29 +114,29 @@ class _DiningPagePageState extends State<Home> {
           //   width: double.infinity,
           //   child: BurgerItem1(),
           // ),
-          // Padding(
-          //   padding: EdgeInsets.all(8.0),
-          //   child: Text(
-          //     '_________OUR RESTAURENTS_________',
-          //     style: TextStyle(
-          //         fontSize: 15,
-          //         fontWeight: FontWeight.bold,
-          //         color: Color.fromARGB(255, 126, 126, 126)),
-          //   ),
-          // ),
-          // Padding(
-          //   padding: EdgeInsets.all(8.0),
-          //   child: Text(
-          //     'FEATURES',
-          //     style: TextStyle(
-          //         fontSize: 15, color: Color.fromARGB(255, 126, 126, 126)),
-          //   ),
-          // ),
-          // SizedBox(
-          //   height: 200,
-          //   width: double.infinity,
-          //   child: Restaurent1(),
-          // ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Text(
+              '_________OUR RESTAURENTS_________',
+              style: TextStyle(
+                  fontSize: 15,
+                  fontWeight: FontWeight.bold,
+                  color: Color.fromARGB(255, 126, 126, 126)),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.all(8.0),
+            child: Text(
+              'FEATURES',
+              style: TextStyle(
+                  fontSize: 15, color: Color.fromARGB(255, 126, 126, 126)),
+            ),
+          ),
+          SizedBox(
+            height: 300,
+            width: double.infinity,
+            child: Restaurent1(),
+          ),
           // SizedBox(
           //   height: 200,
           //   width: double.infinity,

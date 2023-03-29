@@ -57,5 +57,3 @@ d0947![Simulator Screen Shot - iPhone 14 Pro - 2023-03-20 at 18 26 50](https://u
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-20 at 18 30 23](https://user-images.githubusercontent.com/126752734/226350934-e88be118-2180-4ada-aea1-9fa7cdab25f7.png)
 
 
-
-
