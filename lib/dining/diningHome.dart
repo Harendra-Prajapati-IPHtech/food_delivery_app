@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery_app/dining/MostLovedRestaurentsList.dart';
 import 'package:food_delivery_app/dining/diningHomeList.dart';
 import 'package:food_delivery_app/dining/lookingForList.dart';
+import 'package:food_delivery_app/dining/mustTriesLIst.dart';
 
 import '../Home/HomeMenuBarList.dart';
 
@@ -196,12 +197,48 @@ class DiningHome extends StatelessWidget {
                       color: Color.fromARGB(255, 126, 126, 126)),
                 ),
               ),
-              Container(
-                height: 200,
+              const SizedBox(
+                height: 450,
                 width: double.infinity,
-                color: const Color.fromARGB(255, 239, 240, 244),
-                child: const LookingForList(),
+                child: LookingForList(),
               ),
+              const Padding(
+                padding: EdgeInsets.all(10.0),
+                child: Text(
+                  'MUST-TRIES IN LUCKNOW',
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 126, 126, 126)),
+                ),
+              ),
+              const SizedBox(
+                height: 240,
+                width: double.infinity,
+                child: MustTriesList(),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(10.0),
+                child: Text(
+                  'Discover With Vibe',
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 126, 126, 126)),
+                ),
+              ),
+              const Text(
+                'This Page in Progress',
+                style: TextStyle(fontSize: 20, color: Colors.red),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(8.0),
+                child: Icon(
+                  Icons.warning_outlined,
+                  color: Colors.red,
+                  size: 70,
+                ),
+              )
             ],
           ),
         ),
