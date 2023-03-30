@@ -11,26 +11,31 @@ class DiningHomeList extends StatefulWidget {
 class _DiningHomeListState extends State<DiningHomeList> {
   List<DiningHomeModel> list1 = [
     DiningHomeModel(
+        imageLInk: 'assets/images/restaurent3.jpeg',
         restaurentName: 'Skyhilton',
         restaurentDiscount: '15% off',
         distance: '10 m away',
         rating: '4.1'),
     DiningHomeModel(
+        imageLInk: 'assets/images/restaurent2.jpeg',
         restaurentName: 'Best Choice Of Awadh',
         restaurentDiscount: '25% off',
         distance: '15 m away',
         rating: '4.3'),
     DiningHomeModel(
+        imageLInk: 'assets/images/restaurent4.jpeg',
         restaurentName: 'Theka-The Piccadily',
         restaurentDiscount: '20% off',
         distance: '50 m away',
         rating: '4.5'),
     DiningHomeModel(
+        imageLInk: 'assets/images/restaurent5.jpeg',
         restaurentName: 'Punjab-The Piccadily',
         restaurentDiscount: '30% off',
         distance: '100 m away',
         rating: '4.2'),
     DiningHomeModel(
+        imageLInk: 'assets/images/restaurent1.jpeg',
         restaurentName: 'Cheers N Beers',
         restaurentDiscount: '10% off',
         distance: '500 m away',
@@ -86,7 +91,7 @@ class _DiningHomeListState extends State<DiningHomeList> {
                               ),
                             ),
                             Container(
-                              margin: const EdgeInsets.only(top: 40),
+                              margin: const EdgeInsets.only(top: 30),
                               height: 20,
                               width: 40,
                               decoration: BoxDecoration(
@@ -168,8 +173,8 @@ class _DiningHomeListState extends State<DiningHomeList> {
                 borderRadius: const BorderRadius.only(
                     topLeft: Radius.circular(10),
                     bottomLeft: Radius.circular(10)),
-                image: const DecorationImage(
-                    image: AssetImage('assets/images/restaurent3.jpeg'),
+                image: DecorationImage(
+                    image: AssetImage(list1[index].imageLInk.toString()),
                     fit: BoxFit.cover),
               ),
               child: Padding(

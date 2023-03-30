@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/burger/Burger.dart';
 import 'package:food_delivery_app/dining/diningHome.dart';
-
-import '../burger/burgeritemviev.dart';
 
 class HomeLargeItems extends StatelessWidget {
   const HomeLargeItems({super.key});
@@ -30,17 +27,22 @@ class HomeLargeItems extends StatelessWidget {
                 decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(10),
                     image: const DecorationImage(
-                        image: AssetImage('assets/images/veg8.jpeg'),
+                        image: AssetImage('assets/images/restaurent3.jpeg'),
                         fit: BoxFit.cover)),
-                child: const Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Text(
-                    'Special Discounts',
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 30,
-                        fontWeight: FontWeight.bold),
-                  ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: const [
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Text(
+                        'Special Discounts',
+                        style: TextStyle(
+                            color: Color.fromARGB(205, 255, 255, 255),
+                            fontSize: 30,
+                            fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
@@ -61,18 +63,23 @@ class HomeLargeItems extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   image: const DecorationImage(
-                      image: AssetImage('assets/images/veg7.jpeg'),
+                      image: AssetImage('assets/images/restaurent10.jpeg'),
                       fit: BoxFit.cover),
                 ),
-                child: const Padding(
-                  padding: EdgeInsets.all(10.0),
-                  child: Text(
-                    'Special Discounts ',
-                    style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 30,
-                        fontWeight: FontWeight.bold),
-                  ),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: const [
+                    Padding(
+                      padding: EdgeInsets.all(10.0),
+                      child: Text(
+                        'Book  Dining ',
+                        style: TextStyle(
+                            color: Color.fromARGB(205, 255, 255, 255),
+                            fontSize: 30,
+                            fontWeight: FontWeight.bold),
+                      ),
+                    ),
+                  ],
                 ),
               ),
             ),
