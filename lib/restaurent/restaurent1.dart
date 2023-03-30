@@ -362,25 +362,26 @@ class Restaurent1 extends StatelessWidget {
                                             borderRadius:
                                                 BorderRadius.circular(5)),
                                         child: Padding(
-                                            padding: const EdgeInsets.all(5.0),
-                                            child: Row(
-                                              children: const [
-                                                Text(
-                                                  '3.9',
-                                                  style: TextStyle(
-                                                      color: Colors.white,
-                                                      fontSize: 13,
-                                                      fontWeight:
-                                                          FontWeight.bold),
-                                                ),
-                                                Icon(
-                                                  Icons.star,
-                                                  color: Colors.white,
-                                                  size: 15,
-                                                )
-                                              ],
-                                            )),
-                                      )
+                                          padding: const EdgeInsets.all(5.0),
+                                          child: Row(
+                                            children: const [
+                                              Text(
+                                                '3.9',
+                                                style: TextStyle(
+                                                    color: Colors.white,
+                                                    fontSize: 13,
+                                                    fontWeight:
+                                                        FontWeight.bold),
+                                              ),
+                                              Icon(
+                                                Icons.star,
+                                                color: Colors.white,
+                                                size: 15,
+                                              )
+                                            ],
+                                          ),
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 )

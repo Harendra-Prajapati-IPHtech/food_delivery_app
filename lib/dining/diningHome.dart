@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/dining/diningHomeList.dart';
 
 import '../Home/HomeMenuBarList.dart';
 
@@ -75,6 +76,9 @@ class DiningHome extends StatelessWidget {
                           width: 180,
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
+                              border: Border.all(
+                                  width: 2,
+                                  color: const Color.fromARGB(255, 71, 71, 71)),
                               image: const DecorationImage(
                                   image: AssetImage(
                                       'assets/images/blackcard.jpeg'),
@@ -99,6 +103,9 @@ class DiningHome extends StatelessWidget {
                           height: 120,
                           width: 180,
                           decoration: BoxDecoration(
+                              border: Border.all(
+                                  width: 2,
+                                  color: const Color.fromARGB(255, 71, 71, 71)),
                               borderRadius: BorderRadius.circular(10),
                               image: const DecorationImage(
                                   image: AssetImage(
@@ -134,7 +141,25 @@ class DiningHome extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.all(30.0),
               child: Text(
-                'THIS PAGE ON PROGRESS ',
+                'ARE YOU HERE ?   ',
+                style: TextStyle(
+                    fontSize: 15,
+                    fontWeight: FontWeight.bold,
+                    color: Color.fromARGB(255, 126, 126, 126)),
+              ),
+            ),
+            const Padding(
+              padding: EdgeInsets.all(8.0),
+              child: SizedBox(
+                height: 200,
+                width: double.infinity,
+                child: DiningHomeList(),
+              ),
+            ),
+            const Padding(
+              padding: EdgeInsets.all(30.0),
+              child: Text(
+                'Most Loved Restaurents   ',
                 style: TextStyle(
                     fontSize: 15,
                     fontWeight: FontWeight.bold,

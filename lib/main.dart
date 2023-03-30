@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/dining/diningHome.dart';
-
-import 'login/login.dart';
+import 'package:food_delivery_app/login/login.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());
