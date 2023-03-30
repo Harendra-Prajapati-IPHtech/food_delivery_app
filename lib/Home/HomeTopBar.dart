@@ -5,7 +5,8 @@ class HomeTopBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Material(
+    return 
+    Material(
       child: PageView(
         children: [
           Row(
@@ -46,7 +47,8 @@ class HomeTopBar extends StatelessWidget {
                   child: ListView(
                     children: const [
                       ListTile(
-                        trailing: CircleAvatar(
+                        trailing: 
+                        CircleAvatar(
                           backgroundImage:
                               AssetImage('assets/images/profile.jpeg'),
                         ),

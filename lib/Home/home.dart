@@ -3,6 +3,10 @@ import 'package:food_delivery_app/Home/HomeTopBar.dart';
 import 'package:food_delivery_app/Home/search.dart';
 import '../cake/cakeItems.dart';
 import '../restaurent/restaurent1.dart';
+import '../restaurent/restaurent2.dart';
+import '../restaurent/restaurent3.dart';
+import '../restaurent/restaurent4.dart';
+import '../restaurent/restaurent5.dart';
 import 'HomeLargeItems.dart';
 import 'HomeMenuBarList.dart';
 
@@ -52,7 +56,7 @@ class _DiningPagePageState extends State<Home> {
           Padding(
             padding: EdgeInsets.all(30.0),
             child: Text(
-              '_________EXPLORE_________',
+              'EXPLORE',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
@@ -67,7 +71,7 @@ class _DiningPagePageState extends State<Home> {
           Padding(
             padding: EdgeInsets.all(30.0),
             child: Text(
-              '_________WHATS ON YOUR MIND?_________',
+              'WHATS ON YOUR MIND?',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
@@ -87,7 +91,7 @@ class _DiningPagePageState extends State<Home> {
           Padding(
             padding: EdgeInsets.all(30.0),
             child: Text(
-              '_________ IN THE SPOTLIGHT _________',
+              'IN THE SPOTLIGHT',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
@@ -99,25 +103,10 @@ class _DiningPagePageState extends State<Home> {
             width: double.infinity,
             child: CakeItems1(),
           ),
-          // SizedBox(
-          //   height: 200,
-          //   width: double.infinity,
-          //   child: VegItems1(),
-          // ),
-          // SizedBox(
-          //   height: 200,
-          //   width: double.infinity,
-          //   child: NonVegItems(),
-          // ),
-          // SizedBox(
-          //   height: 200,
-          //   width: double.infinity,
-          //   child: BurgerItem1(),
-          // ),
           Padding(
             padding: EdgeInsets.all(8.0),
             child: Text(
-              '_________OUR RESTAURENTS_________',
+              'OUR RESTAURENTS',
               style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,
@@ -137,21 +126,26 @@ class _DiningPagePageState extends State<Home> {
             width: double.infinity,
             child: Restaurent1(),
           ),
-          // SizedBox(
-          //   height: 200,
-          //   width: double.infinity,
-          //   child: Restaurent2(),
-          // ),
-          // SizedBox(
-          //   height: 200,
-          //   width: double.infinity,
-          //   child: Restaurent3(),
-          // ),
-          // SizedBox(
-          //   height: 200,
-          //   width: double.infinity,
-          //   child: Restaurent4(),
-          // ),
+          SizedBox(
+            height: 300,
+            width: double.infinity,
+            child: Restaurent2(),
+          ),
+          SizedBox(
+            height: 300,
+            width: double.infinity,
+            child: Restaurent3(),
+          ),
+          SizedBox(
+            height: 300,
+            width: double.infinity,
+            child: Restaurent4(),
+          ),
+          SizedBox(
+            height: 300,
+            width: double.infinity,
+            child: Restaurent5(),
+          ),
         ],
       ),
     );

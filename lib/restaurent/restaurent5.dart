@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/burger/Burger.dart';
 
-class Restaurent1 extends StatelessWidget {
-  const Restaurent1({super.key});
+class Restaurent5 extends StatelessWidget {
+  const Restaurent5({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -39,7 +39,8 @@ class Restaurent1 extends StatelessWidget {
                           width: double.infinity,
                           decoration: const BoxDecoration(
                               image: DecorationImage(
-                                  image: AssetImage('assets/images/veg10.jpeg'),
+                                  image:
+                                      AssetImage('assets/images/pizza7.jpeg'),
                                   fit: BoxFit.cover),
                               borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(20),
@@ -94,7 +95,7 @@ class Restaurent1 extends StatelessWidget {
                                         child: Padding(
                                           padding: EdgeInsets.all(8.0),
                                           child: Text(
-                                            'Naivedyam By Moti Mahal',
+                                            'Pizza Hut',
                                             style: TextStyle(
                                                 color: Colors.white,
                                                 fontSize: 25,
@@ -268,7 +269,8 @@ class Restaurent1 extends StatelessWidget {
                           width: double.infinity,
                           decoration: const BoxDecoration(
                               image: DecorationImage(
-                                  image: AssetImage('assets/images/veg4.jpeg'),
+                                  image:
+                                      AssetImage('assets/images/pizza8.jpeg'),
                                   fit: BoxFit.cover),
                               borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(20),
@@ -323,7 +325,7 @@ class Restaurent1 extends StatelessWidget {
                                         child: Padding(
                                           padding: EdgeInsets.all(8.0),
                                           child: Text(
-                                            'Naivedyam By Moti Mahal',
+                                            'Pizza Hut',
                                             style: TextStyle(
                                                 color: Colors.white,
                                                 fontSize: 25,
@@ -497,7 +499,8 @@ class Restaurent1 extends StatelessWidget {
                           width: double.infinity,
                           decoration: const BoxDecoration(
                               image: DecorationImage(
-                                  image: AssetImage('assets/images/veg5.jpeg'),
+                                  image:
+                                      AssetImage('assets/images/pizza9.jpeg'),
                                   fit: BoxFit.cover),
                               borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(20),
@@ -552,7 +555,7 @@ class Restaurent1 extends StatelessWidget {
                                         child: Padding(
                                           padding: EdgeInsets.all(8.0),
                                           child: Text(
-                                            'Naivedyam By Moti Mahal',
+                                            'Pizza Hut',
                                             style: TextStyle(
                                                 color: Colors.white,
                                                 fontSize: 25,
@@ -726,7 +729,8 @@ class Restaurent1 extends StatelessWidget {
                           width: double.infinity,
                           decoration: const BoxDecoration(
                               image: DecorationImage(
-                                  image: AssetImage('assets/images/veg8.jpeg'),
+                                  image:
+                                      AssetImage('assets/images/pizza10.jpeg'),
                                   fit: BoxFit.cover),
                               borderRadius: BorderRadius.only(
                                   topLeft: Radius.circular(20),
@@ -781,7 +785,7 @@ class Restaurent1 extends StatelessWidget {
                                         child: Padding(
                                           padding: EdgeInsets.all(8.0),
                                           child: Text(
-                                            'Naivedyam By Moti Mahal',
+                                            'Pizza Hut',
                                             style: TextStyle(
                                                 color: Colors.white,
                                                 fontSize: 25,
