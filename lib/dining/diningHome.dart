@@ -1,14 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/dining/MostLovedRestaurentsList.dart';
+import 'package:food_delivery_app/dining/bankOffersLIst.dart';
 import 'package:food_delivery_app/dining/diningHomeList.dart';
+import 'package:food_delivery_app/dining/discoverVibeList.dart';
 import 'package:food_delivery_app/dining/lookingForList.dart';
 import 'package:food_delivery_app/dining/mustTriesLIst.dart';
 
 import '../Home/HomeMenuBarList.dart';
+import '../restaurent/restaurent1.dart';
+import '../restaurent/restaurent2.dart';
+import '../restaurent/restaurent3.dart';
+import '../restaurent/restaurent4.dart';
+import '../restaurent/restaurent5.dart';
 
 class DiningHome extends StatelessWidget {
   const DiningHome({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -220,25 +226,69 @@ class DiningHome extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.all(10.0),
                 child: Text(
-                  'Discover With Vibe',
+                  'AVAILABLE BANK OFFERS',
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
                       color: Color.fromARGB(255, 126, 126, 126)),
                 ),
               ),
-              const Text(
-                'This Page in Progress',
-                style: TextStyle(fontSize: 20, color: Colors.red),
+              const SizedBox(
+                height: 170,
+                width: double.infinity,
+                child: BankOffersList(),
               ),
               const Padding(
-                padding: EdgeInsets.all(8.0),
-                child: Icon(
-                  Icons.warning_outlined,
-                  color: Colors.red,
-                  size: 70,
+                padding: EdgeInsets.all(10.0),
+                child: Text(
+                  'DISCOVER WITH VIBE',
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 126, 126, 126)),
                 ),
-              )
+              ),
+              const SizedBox(
+                height: 240,
+                width: double.infinity,
+                child: DiscoverVibeList(),
+              ),
+              const Padding(
+                padding: EdgeInsets.all(10.0),
+                child: Text(
+                  'POPULAR RESTAURENTS ARROUND YOU',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                      fontSize: 15,
+                      fontWeight: FontWeight.bold,
+                      color: Color.fromARGB(255, 126, 126, 126)),
+                ),
+              ),
+              const SizedBox(
+                height: 300,
+                width: double.infinity,
+                child: Restaurent1(),
+              ),
+              const SizedBox(
+                height: 300,
+                width: double.infinity,
+                child: Restaurent2(),
+              ),
+              const SizedBox(
+                height: 300,
+                width: double.infinity,
+                child: Restaurent3(),
+              ),
+              const SizedBox(
+                height: 300,
+                width: double.infinity,
+                child: Restaurent4(),
+              ),
+              const SizedBox(
+                height: 300,
+                width: double.infinity,
+                child: Restaurent5(),
+              ),
             ],
           ),
         ),

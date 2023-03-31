@@ -63,7 +63,7 @@ class HomeLargeItems extends StatelessWidget {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   image: const DecorationImage(
-                      image: AssetImage('assets/images/restaurent10.jpeg'),
+                      image: AssetImage('assets/images/discovervibe2.gif'),
                       fit: BoxFit.cover),
                 ),
                 child: Column(
@@ -74,7 +74,7 @@ class HomeLargeItems extends StatelessWidget {
                       child: Text(
                         'Book  Dining ',
                         style: TextStyle(
-                            color: Color.fromARGB(205, 255, 255, 255),
+                            color: Color.fromARGB(255, 255, 255, 255),
                             fontSize: 30,
                             fontWeight: FontWeight.bold),
                       ),
