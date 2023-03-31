@@ -17,35 +17,27 @@
 
 ## outputs
 
-
-
 https://user-images.githubusercontent.com/126752734/227423489-6017a985-40dc-4345-90ea-b93279224177.mp4
 
+# Update
+
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-29 at 18 55 38](https://user-images.githubusercontent.com/126752734/228847809-baaf8b63-5cb0-4881-a619-2ddd7aa069db.png)
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-30 at 18 44 41](https://user-images.githubusercontent.com/126752734/228847861-45ec16a8-5ebd-4b09-bc16-1a47c7ff797e.png)
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-30 at 18 44 49](https://user-images.githubusercontent.com/126752734/228847878-8a0591c9-a069-4b16-ad1c-41a8b8ce904c.png)
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-30 at 18 44 57](https://user-images.githubusercontent.com/126752734/228847888-cfbfd21b-4305-422e-a7cb-f9b9ae0387f9.png)
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-30 at 18 45 09](https://user-images.githubusercontent.com/126752734/228847899-4645c3ec-d82d-4dd4-854e-f8368cca0985.png)
+![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-30 at 18 45 16](https://user-images.githubusercontent.com/126752734/228847906-19f8abae-00d9-4136-ba96-0fffa59ba08d.png)
 
 
 
 
 
-# GUI till now
-
-![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-24 at 19 02 30](https://user-images.githubusercontent.com/126752734/227535644-60703c24-b1db-4708-81c1-b8586b0359a2.png)
-
-
-![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-24 at 19 02 42](https://user-images.githubusercontent.com/126752734/227535650-0c474e44-d115-49f2-b26c-6affde563f30.png)
-
-![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-24 at 19 02 50](https://user-images.githubusercontent.com/126752734/227535679-63d9ceb6-9934-44c2-a3b5-b4c520f0d4e2.png)
-
-![Simulator Screen Shot - iPhone 14 Pro Max - 2023-03-24 at 19 02 57](https://user-images.githubusercontent.com/126752734/227535705-4576d931-31f0-4dfc-baa0-c66a8a6cd25a.png)
-
-
-
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-20 at 18 26 42](https://user-images.githubusercontent.com/126752734/226351608-47feb630-9469-4968-ad84-5318eaac6edd.png)
 
 
 
 
-![Simulator Screen Shot - iPhone 14 Pro - 2023-03-20 at 18 26 50](https://user-images.githubusercontent.com/126752734/226354354-3f950ce7-4f2e-462f-a39a-b10cee17f369.png)
 
+<<<<<<< HEAD
 
 >>>>>>> b467389735c64e996664246e95383e47618![Simulator Screen Shot - iPhone 14 Pro - 2023-03-16 at 18 55 07](https://user-images.githubusercontent.com/126752734/225633896-acabe521-d51b-49cd-86f7-e17d382149e9.png)
 d0947![Simulator Screen Shot - iPhone 14 Pro - 2023-03-20 at 18 26 50](https://user-images.githubusercontent.com/126752734/226350444-aefe20b6-565a-4e90-91e6-dcf6d7cadc37.png)
@@ -63,3 +55,5 @@ Please find my today task .
 Working on Dining Page
 1. Added Available Bank Offers Page Added.
 2. Added Discover With Vibe.
+=======
+>>>>>>> fdb84b7feb514ff26f0d6b8cc57c019fa9d40017
