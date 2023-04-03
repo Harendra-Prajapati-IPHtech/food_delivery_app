@@ -6,8 +6,10 @@ import 'package:food_delivery_app/dining/discoverVibeList.dart';
 import 'package:food_delivery_app/dining/lookingForList.dart';
 import 'package:food_delivery_app/dining/mustTriesLIst.dart';
 import 'package:food_delivery_app/dining/popularRestaurentItems.dart';
-import 'package:food_delivery_app/dining/popularRestaurentPageview.dart';
+
 import 'package:food_delivery_app/dining/popularRestaurents.dart';
+import 'package:food_delivery_app/dining/popularRestaurents1.dart';
+import 'package:food_delivery_app/dining/popularRestaurents2.dart';
 
 import '../Home/HomeMenuBarList.dart';
 
@@ -252,17 +254,22 @@ class DiningHome extends StatelessWidget {
               const SizedBox(
                 height: 350,
                 width: double.infinity,
-                child: PopularRestaurentPageView(),
-              ),
-              const SizedBox(
-                height: 350,
-                width: double.infinity,
                 child: PopularRestaurentItems(),
               ),
               const SizedBox(
                 height: 350,
                 width: double.infinity,
                 child: PopularRestaurent(),
+              ),
+              const SizedBox(
+                height: 350,
+                width: double.infinity,
+                child: PopularRestaurent2(),
+              ),
+              const SizedBox(
+                height: 350,
+                width: double.infinity,
+                child: PopularRestaurent1(),
               ),
             ],
           ),

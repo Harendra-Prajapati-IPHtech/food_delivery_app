@@ -3,15 +3,31 @@ import 'package:food_delivery_app/dining/PopularRestaurentItemsModel.dart';
 
 import '../burger/Burger.dart';
 
-class PopularRestaurentItems extends StatefulWidget {
-  const PopularRestaurentItems({super.key});
+class PopularRestaurent2 extends StatefulWidget {
+  const PopularRestaurent2({super.key});
 
   @override
-  State<PopularRestaurentItems> createState() => _PopularRestaurentItemsState();
+  State<PopularRestaurent2> createState() => _PopularRestaurent2State();
 }
 
-class _PopularRestaurentItemsState extends State<PopularRestaurentItems> {
+class _PopularRestaurent2State extends State<PopularRestaurent2> {
   List list1 = <PopularRestaurentItemsModel>[
+    PopularRestaurentItemsModel(
+        restaurentImage: 'assets/images/restaurent3.jpeg',
+        restaurentName: 'Royal Bar & Cafe',
+        restaurentItemPrice: '500 for one',
+        restaurentAddress: 'Alambag Lucknow',
+        restaurentDistance: '10 km',
+        restaurentRating: '4.3',
+        restaurentItemCategory: 'Wines'),
+    PopularRestaurentItemsModel(
+        restaurentImage: 'assets/images/restaurent6.jpeg',
+        restaurentName: 'Awadh Restaurent',
+        restaurentItemPrice: '250 for one',
+        restaurentAddress: 'Alambag Lucknow',
+        restaurentDistance: '2 km',
+        restaurentRating: '4.5',
+        restaurentItemCategory: 'Pure Veg'),
     PopularRestaurentItemsModel(
         restaurentImage: 'assets/images/restaurent9.jpeg',
         restaurentName: 'JB Celebrations',
@@ -36,22 +52,6 @@ class _PopularRestaurentItemsState extends State<PopularRestaurentItems> {
         restaurentDistance: '5 km',
         restaurentRating: '4.5',
         restaurentItemCategory: 'Family Restaurents'),
-    PopularRestaurentItemsModel(
-        restaurentImage: 'assets/images/restaurent3.jpeg',
-        restaurentName: 'Royal Bar & Cafe',
-        restaurentItemPrice: '500 for one',
-        restaurentAddress: 'Alambag Lucknow',
-        restaurentDistance: '10 km',
-        restaurentRating: '4.3',
-        restaurentItemCategory: 'Wines'),
-    PopularRestaurentItemsModel(
-        restaurentImage: 'assets/images/restaurent6.jpeg',
-        restaurentName: 'Awadh Restaurent',
-        restaurentItemPrice: '250 for one',
-        restaurentAddress: 'Alambag Lucknow',
-        restaurentDistance: '2 km',
-        restaurentRating: '4.5',
-        restaurentItemCategory: 'Pure Veg'),
   ];
   @override
   Widget build(BuildContext context) {
