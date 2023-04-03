@@ -5,34 +5,18 @@ import 'package:food_delivery_app/dining/diningHomeList.dart';
 import 'package:food_delivery_app/dining/discoverVibeList.dart';
 import 'package:food_delivery_app/dining/lookingForList.dart';
 import 'package:food_delivery_app/dining/mustTriesLIst.dart';
+import 'package:food_delivery_app/dining/popularRestaurentItems.dart';
+import 'package:food_delivery_app/dining/popularRestaurentPageview.dart';
 import 'package:food_delivery_app/dining/popularRestaurents.dart';
 
 import '../Home/HomeMenuBarList.dart';
-import '../restaurent/restaurent1.dart';
-import '../restaurent/restaurent2.dart';
-import '../restaurent/restaurent3.dart';
-import '../restaurent/restaurent4.dart';
-import '../restaurent/restaurent5.dart';
 
 class DiningHome extends StatelessWidget {
   const DiningHome({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          leading: IconButton(
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              icon: const Icon(Icons.arrow_back_ios)),
-          backgroundColor: const Color.fromARGB(
-            255,
-            26,
-            24,
-            24,
-          ),
-        ),
+    return Material(
+      child: Scaffold(
         body: SingleChildScrollView(
           child: Column(
             children: [
@@ -266,7 +250,17 @@ class DiningHome extends StatelessWidget {
                 ),
               ),
               const SizedBox(
-                height: 500,
+                height: 350,
+                width: double.infinity,
+                child: PopularRestaurentPageView(),
+              ),
+              const SizedBox(
+                height: 350,
+                width: double.infinity,
+                child: PopularRestaurentItems(),
+              ),
+              const SizedBox(
+                height: 350,
                 width: double.infinity,
                 child: PopularRestaurent(),
               ),

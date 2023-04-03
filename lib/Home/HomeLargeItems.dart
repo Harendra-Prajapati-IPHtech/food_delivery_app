@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/dining/diningHome.dart';
+import 'package:food_delivery_app/burger/Burger.dart';
 
 class HomeLargeItems extends StatelessWidget {
   const HomeLargeItems({super.key});
@@ -15,10 +15,8 @@ class HomeLargeItems extends StatelessWidget {
             flex: 1,
             child: InkWell(
               onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const DiningHome()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const Burger()));
               },
               child: Container(
                 margin: const EdgeInsets.only(
@@ -51,10 +49,8 @@ class HomeLargeItems extends StatelessWidget {
             flex: 1,
             child: InkWell(
               onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const DiningHome()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const Burger()));
               },
               child: Container(
                 margin: const EdgeInsets.only(

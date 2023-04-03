@@ -2,10 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:food_delivery_app/Home/home.dart';
 import 'package:food_delivery_app/dashboard.dart';
 import 'package:food_delivery_app/delivery.dart';
-
 import 'package:food_delivery_app/signUp/sign_up.dart';
-
-import '../dining/dining.dart';
+import '../dining/diningHome.dart';
 
 class HomePageView extends StatefulWidget {
   const HomePageView({super.key});
@@ -38,7 +36,7 @@ class _HomePageState extends State<HomePageView> {
             MyDashboard(),
             DeliveryPage(),
             Home(),
-            DiningPage(),
+            DiningHome(),
             signUp(),
           ],
         ),
