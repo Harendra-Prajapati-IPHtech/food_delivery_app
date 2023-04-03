@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/Home/Homepageview.dart';
-
-import 'dining/dining.dart';
+import 'package:food_delivery_app/burger/Burger.dart';
 import 'login/login.dart';
 import 'delivery.dart';
 
@@ -168,7 +167,7 @@ class _ForgetPasswordState extends State<ForgetPassword> {
                   Navigator.push(
                       context,
                       MaterialPageRoute(
-                          builder: (context) => const DiningPage()));
+                          builder: (context) => const Burger()));
                 },
                 child: const Icon(
                   Icons.dining,

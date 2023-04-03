@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/Home/Homepageview.dart';
+import 'package:food_delivery_app/burger/Burger.dart';
 import 'package:food_delivery_app/login/login.dart';
 
 import 'delivery.dart';
-import 'dining/dining.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -195,10 +195,8 @@ class SearchItems extends State<HomePage> {
           BottomNavigationBarItem(
             icon: InkWell(
               onTap: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (context) => const DiningPage()));
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const Burger()));
               },
               child: const Icon(
                 Icons.dining,
