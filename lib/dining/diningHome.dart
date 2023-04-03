@@ -5,6 +5,7 @@ import 'package:food_delivery_app/dining/diningHomeList.dart';
 import 'package:food_delivery_app/dining/discoverVibeList.dart';
 import 'package:food_delivery_app/dining/lookingForList.dart';
 import 'package:food_delivery_app/dining/mustTriesLIst.dart';
+import 'package:food_delivery_app/dining/popularRestaurents.dart';
 
 import '../Home/HomeMenuBarList.dart';
 import '../restaurent/restaurent1.dart';
@@ -265,29 +266,9 @@ class DiningHome extends StatelessWidget {
                 ),
               ),
               const SizedBox(
-                height: 300,
+                height: 500,
                 width: double.infinity,
-                child: Restaurent1(),
-              ),
-              const SizedBox(
-                height: 300,
-                width: double.infinity,
-                child: Restaurent2(),
-              ),
-              const SizedBox(
-                height: 300,
-                width: double.infinity,
-                child: Restaurent3(),
-              ),
-              const SizedBox(
-                height: 300,
-                width: double.infinity,
-                child: Restaurent4(),
-              ),
-              const SizedBox(
-                height: 300,
-                width: double.infinity,
-                child: Restaurent5(),
+                child: PopularRestaurent(),
               ),
             ],
           ),
